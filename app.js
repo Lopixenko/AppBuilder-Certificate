@@ -146,24 +146,8 @@ function showOfficialExamsMenu() {
   grid.className = 'exam-grid';
   appDiv.appendChild(grid);
 
-  // --- BOTÓN EXAMEN ÚNICAS ---
-  const btnUnicas = document.createElement('button');
-  btnUnicas.textContent = '★ EXAMEN ÚNICAS';
-  btnUnicas.style.fontWeight = 'bold'; 
-  btnUnicas.style.border = '2px solid #0070d2'; // Resaltar estilo Salesforce
-  btnUnicas.onclick = () => selectOfficialModeType('unicas');
-  grid.appendChild(btnUnicas);
-
-  // --- NUEVO BOTÓN: APP EXTERNA ---
-  const btnAppExterna = document.createElement('button');
-  btnAppExterna.textContent = '★ APP EXTERNA';
-  btnAppExterna.style.fontWeight = 'bold'; 
-  btnAppExterna.style.border = '2px solid #0070d2'; // Mismo estilo resaltado
-  btnAppExterna.onclick = () => selectOfficialModeType('app-externa');
-  grid.appendChild(btnAppExterna);
-
   // Generar botones del 1 al 11
-  for (let i = 1; i <= 11; i++) {
+  for (let i = 1; i <= 3; i++) {
     const btn = document.createElement('button');
     btn.textContent = `Examen ${i}`;
     btn.onclick = () => selectOfficialModeType(i);
@@ -171,7 +155,7 @@ function showOfficialExamsMenu() {
   }
 }
 
-// examIdentifier puede ser un número (1-11), 'unicas' o 'app-externa'
+// examIdentifier puede ser un número (1-3)
 function selectOfficialModeType(examIdentifier) {
   const appDiv = document.getElementById('app');
   appDiv.innerHTML = '';
@@ -181,13 +165,7 @@ function selectOfficialModeType(examIdentifier) {
   const isAppExterna = examIdentifier === 'app-externa';
   
   let titleText = '';
-  if (isUnicas) {
-    titleText = 'Examen Únicas';
-  } else if (isAppExterna) {
-    titleText = 'Examen App Externa';
-  } else {
-    titleText = `Examen Oficial ${examIdentifier}`;
-  }
+  titleText = `Examen Oficial ${examIdentifier}`;
 
   const title = document.createElement('h2');
   title.textContent = titleText;
