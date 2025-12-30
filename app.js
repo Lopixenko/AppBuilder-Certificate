@@ -102,7 +102,7 @@ function showMainMenu() {
   appDiv.innerHTML = '';
 
   const title = document.createElement('h1');
-  title.textContent = 'Práctica Salesforce Admin';
+  title.textContent = 'Práctica Salesforce App Builder';
   appDiv.appendChild(title);
 
   // Botón 1: UNITS
