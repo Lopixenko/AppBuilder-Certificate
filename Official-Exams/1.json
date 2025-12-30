@@ -173,7 +173,7 @@
   },
   {
     "id": 12,
-    "module": "Validation",
+    "module": "Business Logic and Process Automation",
     "question": "Universal Containers uses a custom object called Projects. Once Estimated Hours are set, users should be able to decrease but not increase the value. How can an app builder meet this requirement?",
     "options": [
       "Create a formula default value for the custom field.",
@@ -356,7 +356,7 @@
   },
   {
     "id": 24,
-    "module": "Validation",
+    "module": "Business Logic and Process Automation",
     "question": "Cloud Kicks (CK) requires that custom shoes are shipped within two weeks after the close date. How should the app builder ensure the Scheduled Ship Date field is properly filled out before setting the opportunity to closed won?",
     "options": [
       "OR (ISPICKVAL(StageName, \"Closed Won\") && (Scheduled_Ship_Date_c - CloseDate > 14 || ISBLANK(Scheduled_Ship_Date_c)))",
@@ -386,7 +386,7 @@
   },
   {
     "id": 26,
-    "module": "Formulas",
+    "module": "Business Logic and Process Automation",
     "question": "Nickname_c is a custom text field used to override the contact name. Which formula should an app builder use to select the preferred name if Nickname_c is not blank, otherwise use FirstName?",
     "options": [
       "IF (ISNULL (Nickname_c), Nickname, firstName)",
@@ -620,7 +620,7 @@
   },
   {
     "id": 41,
-    "module": "Formulas",
+    "module": "Business Logic and Process Automation",
     "question": "New cases populate a green circle, day-old cases a yellow circle, and three day-old cases a red circle. How should an app builder implement this?",
     "options": [
       "Custom Button",
@@ -681,7 +681,7 @@
   },
   {
     "id": 45,
-    "module": "Validation",
+    "module": "Business Logic and Process Automation",
     "question": "New vendors must accept terms on agreements before the opportunity can be closed. Which feature should be used?",
     "options": [
       "Validation Rule",
@@ -816,7 +816,7 @@
   },
   {
     "id": 54,
-    "module": "Formulas",
+    "module": "Business Logic and Process Automation",
     "question": "Ursa Major Solar wants to see the Type field from parent Galaxy on child Star. Which formula should be used to avoid picklist function errors?",
     "options": [
       "ISPICKVAL (Galaxy_r.Type_c)",
@@ -968,7 +968,7 @@
   },
   {
     "id": 64,
-    "module": "Validation",
+    "module": "Business Logic and Process Automation",
     "question": "DreamHouse Realty wants to prevent cases from being reverted to earlier status and ensure certain fields are required based on criteria. Which solution?",
     "options": [
       "Create dependent picklist fields and set them as required.",
