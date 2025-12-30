@@ -17,7 +17,7 @@
   },
   {
     "id": 2,
-    "module": "Process Automation",
+    "module": "Business Logic and Process Automation",
     "question": "Sales reps at Cloud Kicks (CK) forget to submit for approval when CK needs orders reviewed before close won. CK wants to automatically submit opportunities into the Secure Commitment Stage to eliminate manual submission. Which two features could meet the business requirements?",
     "options": [
       "Custom object",
@@ -33,7 +33,7 @@
   },
   {
     "id": 3,
-    "module": "App Builder",
+    "module": "User Interface",
     "question": "Universal Containers has purchased a Lightning component on the AppExchange. In which two areas can these components be used?",
     "options": [
       "Lightning App Builder",
@@ -49,7 +49,7 @@
   },
   {
     "id": 4,
-    "module": "Deployment",
+    "module": "App Deployment",
     "question": "Universal Containers have changes that need to be deployed from Sandbox to Production. Where should an app builder look to verify that a Change Set can be deployed?",
     "options": [
       "Deployment Settings",
@@ -64,7 +64,7 @@
   },
   {
     "id": 5,
-    "module": "App Builder",
+    "module": "User Interface",
     "question": "An app builder installed a custom Lightning component from AppExchange. What should be done next in order to configure the component for use in a record page?",
     "options": [
       "Edit a record page using Lightning App Builder > Drag the component onto the page.",
@@ -95,7 +95,7 @@
   },
   {
     "id": 7,
-    "module": "Data Management",
+    "module": "Data Modeling and Management",
     "question": "The events manager at Cloud Kicks (CK) hosted a launch party and wants to add a CSV file of attendees into a Campaign as Campaign Members so CK can track any future purchases the guests make. Which three considerations should be made prior to using the Data Import Wizard for importing Campaign Members?",
     "options": [
       "Related Lead, Contact, and Campaign records for the Campaign Members should exist prior to import.",
@@ -113,7 +113,7 @@
   },
   {
     "id": 8,
-    "module": "App Builder",
+    "module": "User Interface",
     "question": "Where can an app builder add components to the utility bar?",
     "options": [
       "Lightning Record Page",
@@ -143,7 +143,7 @@
   },
   {
     "id": 10,
-    "module": "Deployment",
+    "module": "App Deployment",
     "question": "Universal Containers has deployed custom tabs to production via change sets, without including the profile settings or permission sets. What is the setting for the visibility of custom tabs?",
     "options": [
       "Custom tabs are default off for all users.",
@@ -158,7 +158,7 @@
   },
   {
     "id": 11,
-    "module": "Reporting",
+    "module": "User Interface",
     "question": "Universal Containers wants to embed a chart of all related Opportunities, by stage, on the Account detail page. Which type of report should an app builder create to add to the Account page layout?",
     "options": [
       "A summary report on the Opportunity object",
@@ -188,7 +188,7 @@
   },
   {
     "id": 13,
-    "module": "Data Model",
+    "module": "Data Modeling and Management",
     "question": "DreamHouse Realty (DR) has many properties for sale and wants to identify the highest value of all offer_c records on each Property_c record. Which solution should the app builder use to meet DreamHouse Realty's needs?",
     "options": [
       "Master-Detail Child Object",
@@ -203,7 +203,7 @@
   },
   {
     "id": 14,
-    "module": "Data Model",
+    "module": "Data Modeling and Management",
     "question": "Northern Trail Outfitters wants to change a master-detail relationship on Account to a lookup relationship with a custom object Park. The app builder tries to reconfigure this but is unable to do so. What could be causing this?",
     "options": [
       "The Account is included in a flow process on the Park object.",
@@ -218,7 +218,7 @@
   },
   {
     "id": 15,
-    "module": "Reporting",
+    "module": "User Interface",
     "question": "A manager built out a new Account report and wants to add a chart of the data to account records. An app builder tried to use the Report Chart component but was unable to find the manager's report. What are two reasons the app builder is unable to see the report?",
     "options": [
       "The report has no data in it.",
@@ -234,7 +234,7 @@
   },
   {
     "id": 16,
-    "module": "Data Management",
+    "module": "Data Modeling and Management",
     "question": "Cloud Kicks asked the app builder to insert a list of 25,000 records using deduplication for the Delivery custom object. Which tool should be used?",
     "options": [
       "Data Loader",
@@ -264,7 +264,7 @@
   },
   {
     "id": 18,
-    "module": "Mobile",
+    "module": "User Interface",
     "question": "The Cloud Kicks (CK) sales team is planning a Salesforce mobile app rollout. Which two solutions could an app builder suggest for an enhanced user experience?",
     "options": [
       "Allow mobile users to switch between Lightning and Classic.",
@@ -280,7 +280,7 @@
   },
   {
     "id": 19,
-    "module": "App Builder",
+    "module": "User Interface",
     "question": "On the Account Lightning record page, users need to see ten fields and the ability to sort and wrap text on their Related Lists. Which Related List type should the app builder select?",
     "options": [
       "List View",
@@ -295,7 +295,7 @@
   },
   {
     "id": 20,
-    "module": "App Management",
+    "module": "App Deployment",
     "question": "What should an app builder do to upgrade an unmanaged package that has been installed into production?",
     "options": [
       "Uninstall the current version and install the new version.",
@@ -310,7 +310,7 @@
   },
   {
     "id": 21,
-    "module": "Process Automation",
+    "module": "Business Logic and Process Automation",
     "question": "Sales reps at Universal Containers create multiple quotes per opportunity. Which automation tool should an app builder recommend to delete rejected quotes?",
     "options": [
       "Flow",
@@ -325,7 +325,7 @@
   },
   {
     "id": 22,
-    "module": "Deployment",
+    "module": "App Deployment",
     "question": "An app builder is asked to create a sandbox for a developer testing 250 MB of data that needs daily refresh. Which type of sandbox should the app builder create?",
     "options": [
       "Partial copy sandbox",
@@ -340,7 +340,7 @@
   },
   {
     "id": 23,
-    "module": "App Builder",
+    "module": "User Interface",
     "question": "Which two places can an app builder go to see a list of available Custom Lightning components in their org?",
     "options": [
       "Visualforce components in Setup",
@@ -371,7 +371,7 @@
   },
   {
     "id": 25,
-    "module": "Process Automation",
+    "module": "Business Logic and Process Automation",
     "question": "An app builder wants to update a field on the parent record when a child record connected via lookup is deleted. Which automation should the app builder use?",
     "options": [
       "Record-triggered flow",
@@ -401,7 +401,7 @@
   },
   {
     "id": 27,
-    "module": "Process Automation",
+    "module": "Business Logic and Process Automation",
     "question": "Which two features can be used to allow users to access Flows?",
     "options": [
       "Quick Action",
@@ -417,7 +417,7 @@
   },
   {
     "id": 28,
-    "module": "Process Automation",
+    "module": "Business Logic and Process Automation",
     "question": "Which tool should an app builder recommend to auto-populate a field on the Asset record when a maintenance work order gets closed?",
     "options": [
       "Roll-up Summary",
@@ -432,7 +432,7 @@
   },
   {
     "id": 29,
-    "module": "Deployment",
+    "module": "App Deployment",
     "question": "A production org includes custom objects containing confidential information. A sandbox is needed that includes data records, excludes all confidential objects, and can be refreshed weekly. Which step should be taken?",
     "options": [
       "Create a Developer Sandbox and schedule Data Loader to download selected object data weekly.",
@@ -463,7 +463,7 @@
   },
   {
     "id": 31,
-    "module": "Data Model",
+    "module": "Data Modeling and Management",
     "question": "An app builder wants to reflect summarized calculations of specific fields. Which three field types can be used in roll-up summary fields?",
     "options": [
       "Percent",
@@ -481,7 +481,7 @@
   },
   {
     "id": 32,
-    "module": "App Builder",
+    "module": "App Deployment",
     "question": "Universal Containers require different fields to be filled out at each stage of the Opportunity sales process. Which configuration steps can an app builder use to meet this requirement?",
     "options": [
       "Create a Validation rule to prompt the User for field information.",
@@ -496,7 +496,7 @@
   },
   {
     "id": 33,
-    "module": "Data Model",
+    "module": "Data Modeling and Management",
     "question": "Universal Containers (UC) delivers purchased containers to remote construction sites. Which field type should the app builder use to capture crossroads or location markers?",
     "options": [
       "External Lookup",
@@ -511,7 +511,7 @@
   },
   {
     "id": 34,
-    "module": "App Builder",
+    "module": "App Deployment",
     "question": "Which two steps are necessary to make a custom Lightning App available to the internal users?",
     "options": [
       "Assign app to profiles.",
@@ -542,7 +542,7 @@
   },
   {
     "id": 36,
-    "module": "Data Model",
+    "module": "Data Modeling and Management",
     "question": "Ursa Major Solar (UMS) wants to allow the same applicant to apply for multiple open positions using a single application. What should an app builder recommend?",
     "options": [
       "Create a master-detail relationship field on Open Position to Application.",
@@ -557,7 +557,7 @@
   },
   {
     "id": 37,
-    "module": "Data Model",
+    "module": "Data Modeling and Management",
     "question": "Universal Containers uses a custom picklist on the Account object. The VP of sales asked that the value of this field is visible on Opportunities. How should an app builder create this solution?",
     "options": [
       "Field history tracking",
@@ -572,7 +572,7 @@
   },
   {
     "id": 38,
-    "module": "App Builder",
+    "module": "App Deployment",
     "question": "Sales reps want recommendations, sales strategies and to know what key fields need to be completed at each step of the sales process on the opportunity record. Which feature should be used?",
     "options": [
       "Path",
@@ -587,7 +587,7 @@
   },
   {
     "id": 39,
-    "module": "Deployment",
+    "module": "App Deployment",
     "question": "Which three common items can an app builder move when using a change set?",
     "options": [
       "Web-to-lead",
@@ -605,7 +605,7 @@
   },
   {
     "id": 40,
-    "module": "Data Model",
+    "module": "Data Modeling and Management",
     "question": "Universal Containers wants to track installation information on a custom object for purchased containers. Which kind of relationship should this new object have to Opportunity?",
     "options": [
       "Lookup",
@@ -696,7 +696,7 @@
   },
   {
     "id": 46,
-    "module": "Data Management",
+    "module": "Data Modeling and Management",
     "question": "CK changed processes to allow opportunities to have different specialty values than their Account. How can reps enter values while preserving existing ones?",
     "options": [
       "Export the data, convert the field to a text field, and import the data.",
@@ -711,7 +711,7 @@
   },
   {
     "id": 47,
-    "module": "Data Model",
+    "module": "Data Modeling and Management",
     "question": "Cloud Kicks wants to display the number of Opportunity records associated with each Account. Which solution should be used?",
     "options": [
       "Lookup field",
@@ -741,7 +741,7 @@
   },
   {
     "id": 49,
-    "module": "Data Model",
+    "module": "Data Modeling and Management",
     "question": "Cloud Kicks would like to track when customers made their first purchase. How should an app builder use a roll-up summary to meet the requirements?",
     "options": [
       "Create a new date field called First Order Date, then create toll- summary to update the field using Type MIN.",
@@ -756,7 +756,7 @@
   },
   {
     "id": 50,
-    "module": "Process Automation",
+    "module": "Business Logic and Process Automation",
     "question": "Cloud Kicks (CK) is creating an approval process for overnight shipments. Where should the app builder route the approval request?",
     "options": [
       "Role",
@@ -771,7 +771,7 @@
   },
   {
     "id": 51,
-    "module": "App Builder",
+    "module": "Business Logic and Process Automation",
     "question": "Universal Containers wants a user to answer additional questions via a popup window to populate additional record fields when submitting for approval. What should be used?",
     "options": [
       "Custom Lightning component",
@@ -786,7 +786,7 @@
   },
   {
     "id": 52,
-    "module": "App Builder",
+    "module": "App Deployment",
     "question": "The VP of Sales asked the app builder to let sales reps create opportunity records directly from the account, with pre-populated fields. Which feature should be used?",
     "options": [
       "Custom link",
@@ -831,7 +831,7 @@
   },
   {
     "id": 55,
-    "module": "Process Automation",
+    "module": "Business Logic and Process Automation",
     "question": "When an opportunity close date is delayed by more than 60 days, review is required. Which two solutions will meet the requirement?",
     "options": [
       "Create a flow that submits the record for an approval process.",
@@ -847,7 +847,7 @@
   },
   {
     "id": 56,
-    "module": "Relationships",
+    "module": "User Interface",
     "question": "Which approach should an app builder take to show Component as a related list on Product?",
     "options": [
       "Create a master-detail relationship on Product to Component.",
@@ -877,7 +877,7 @@
   },
   {
     "id": 58,
-    "module": "Deployment",
+    "module": "App Deployment",
     "question": "After testing, changes had to be made to components in a change set already deployed to testing. How should the builder move new changes?",
     "options": [
       "Refresh the test sandbox and re-deploy the change set.",
@@ -907,7 +907,7 @@
   },
   {
     "id": 60,
-    "module": "Mobile",
+    "module": "User Interface",
     "question": "A business user wants a quick way to edit status and custom due date from the record's feed in Salesforce Mobile App. What should be used?",
     "options": [
       "Custom button",
@@ -922,7 +922,7 @@
   },
   {
     "id": 61,
-    "module": "App Builder",
+    "module": "App Deployment",
     "question": "Universal Containers wants to improve Opportunity creation from an Account where many fields are pre-populated. What should be configured?",
     "options": [
       "Assignment rule triggered from Opportunity update",
@@ -983,7 +983,7 @@
   },
   {
     "id": 65,
-    "module": "Process Automation",
+    "module": "Business Logic and Process Automation",
     "question": "An app builder needs to create new automation. Which best practice should be followed?",
     "options": [
       "One Flow per object",
