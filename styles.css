@@ -4,7 +4,7 @@ body {
   padding: 0;
   min-height: 100vh;
   position: relative;
-  background: linear-gradient(120deg, #0050ac 0%, #9354b9 90%);
+  background: linear-gradient(120deg, #0050ac 0%, #15fd00 90%);
   background-attachment: fixed;
   overflow-x: hidden;
 }
@@ -16,7 +16,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(120deg, #0050ac 0%, #9354b9 80%);
+  background: linear-gradient(120deg, #0050ac 0%, #15fd00 80%);
 }
 
 #center {
@@ -46,19 +46,19 @@ h1 {
   text-align: center;
   margin: 0 0 22px 0;
   font-weight: 800;
-  color: #6932ac;
+  color: #000201;
   letter-spacing: 0.5px;
 }
 
 h2, h3 {
   text-align: center;
-  color: #4a3087;
+  color: #000000;
   margin: 0 0 18px 0;
   font-weight: 700;
 }
 
 h3 {
-  color: #888;
+  color: #000000;
   font-size: 1.09rem;
   font-weight: 500;
   margin-top: 33px;
@@ -66,7 +66,7 @@ h3 {
 
 button {
   display: inline-block;
-  background: linear-gradient(92deg, #9354b9 65%, #5e99fa 120%);
+  background: linear-gradient(92deg, #15fd00 65%, #5e99fa 120%);
   color: white;
   border: none;
   padding: 14px 28px;
@@ -80,7 +80,7 @@ button {
 }
 
 button:hover {
-  background: linear-gradient(92deg, #b270e1 50%, #83bcfa 150%);
+  background: linear-gradient(92deg, #15fd00 50%, #83bcfa 150%);
   box-shadow: 0 10px 28px rgba(125, 66, 205, 0.16);
   transform: translateY(-1.7px) scale(1.04);
 }
