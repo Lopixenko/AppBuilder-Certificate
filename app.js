@@ -29,34 +29,6 @@ class QuestionBank {
       return null;
     }
   }
-
-  // Carga el archivo Unicas.json de la raíz
-  async loadUnicas() {
-    try {
-      const response = await fetch('Unicas.json');
-      if (!response.ok) throw new Error('Archivo no encontrado');
-      const data = await response.json();
-      return data;
-    } catch (error) {
-      alert('No se pudo cargar Unicas.json. Asegúrate de que esté en la carpeta raíz.');
-      return null;
-    }
-  }
-
-  // NUEVO: Carga el archivo APP EXTERNA.JSON de la raíz
-  async loadAppExterna() {
-    try {
-      // Nota: Asegúrate de que el nombre del archivo coincida exactamente (mayúsculas/espacios)
-      const response = await fetch('APP EXTERNA.JSON');
-      if (!response.ok) throw new Error('Archivo no encontrado');
-      const data = await response.json();
-      return data;
-    } catch (error) {
-      alert('No se pudo cargar APP EXTERNA.JSON. Asegúrate de que esté en la carpeta raíz.');
-      return null;
-    }
-  }
-
   assignUnits(questions) {
     // Mapeo de palabras clave a unidades
     const units_keywords = {
