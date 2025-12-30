@@ -2,17 +2,18 @@
   {
     "id": 1,
     "module": "Data and Analytics Management",
-    "question": "What is Salesforce primarily used for?",
+    "question": "Cloud Kicks (CK) wants to begin socializing and collaborating within Salesforce around customer accounts to discuss various topics. CK would like all company employees to see these conversations. Which two features of Chatter would meet CK's business needs? Choose 2 answers",
     "options": [
-      "Customer Relationship Management",
-      "Graphic Design",
-      "Data Mining",
-      "Video Editing"
+      "Set up new private Chatter groups",
+      "Use post action on the Account object",
+      "Use Chatter actions to create tasks to complete",
+      "Set up new public Chatter groups"
     ],
     "correctAnswers": [
-      0
+      1,
+      3
     ],
-    "explanation": "Salesforce is primarily a CRM platform used to manage customer data and relationships."
+    "explanation": "Use the Account record's Post action to start conversations directly on accounts, and create public Chatter groups so all company employees can view and participate in those discussions."
   },
   {
     "id": 2,
