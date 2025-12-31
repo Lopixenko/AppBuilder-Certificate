@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "module": "Chatter",
+    "module": "Salesforce Fundamentals",
     "question": "Cloud Kicks (CK) switched to Lightning Experience and started using Chatter across its global workforce to support its fast-paced sales cycle. CK loves Chatter but struggle with gathering feedback from core team members, including understanding who is available to respond. Which two ways could CK use Chatter to solve this problem?",
     "options": [
       "Topics",
@@ -33,7 +33,7 @@
   },
   {
     "id": 3,
-    "module": "User Interface",
+    "module": "Salesforce Fundamentals",
     "question": "Universal Containers has purchased a Lightning component on the AppExchange. In which two areas can these components be used?",
     "options": [
       "Lightning App Builder",
@@ -64,7 +64,7 @@
   },
   {
     "id": 5,
-    "module": "User Interface",
+    "module": "Salesforce Fundamentals",
     "question": "An app builder installed a custom Lightning component from AppExchange. What should be done next in order to configure the component for use in a record page?",
     "options": [
       "Edit a record page using Lightning App Builder > Drag the component onto the page.",
@@ -128,7 +128,7 @@
   },
   {
     "id": 9,
-    "module": "Security",
+    "module": "Salesforce Fundamentals",
     "question": "Ursa Major Solar (UMS) uses Cases to track customer complaints, an Issue_c object to represent known problems, and a Case_Issue_c junction object. Which access levels must be configured to allow UMS users to access Case_Issue_c records?",
     "options": [
       "Read-Only access on Case and Case_Issue_c",
@@ -249,7 +249,7 @@
   },
   {
     "id": 17,
-    "module": "Reporting",
+    "module": "Salesforce Fundamentals",
     "question": "A new field has been added to the Applicant object. A recruiter noticed the new field was missing as an option in a custom report. How should an app builder troubleshoot this issue?",
     "options": [
       "Update the profile with the Manage Public Reports permission.",
@@ -447,7 +447,7 @@
   },
   {
     "id": 30,
-    "module": "Chatter",
+    "module": "Salesforce Fundamentals",
     "question": "Cloud Kicks (CK) wants all company employees to see conversations around customer accounts. Which two features of Chatter would meet CK's business needs?",
     "options": [
       "Set up new private Chatter groups.",
@@ -527,7 +527,7 @@
   },
   {
     "id": 35,
-    "module": "Security",
+    "module": "Salesforce Fundamentals",
     "question": "AW Computing uses a private sharing model for opportunities. Whenever an opportunity with a type of Service Agreement is created, all users in the Service Manager role should view it. Which tool should be used?",
     "options": [
       "Criteria-based sharing rules",
@@ -635,7 +635,7 @@
   },
   {
     "id": 42,
-    "module": "Security",
+    "module": "Salesforce Fundamentals",
     "question": "Which two actions should the app builder take to prevent users in the shipping department from deleting delivery records?",
     "options": [
       "Remove the delete button from the Delivery page layout.",
@@ -651,7 +651,7 @@
   },
   {
     "id": 43,
-    "module": "Security",
+    "module": "Salesforce Fundamentals",
     "question": "Only users with the Outer Planets profile need to see the Jupiter field on the Solar System object. How should the app builder satisfy this requirement?",
     "options": [
       "Filtered view",
@@ -666,7 +666,7 @@
   },
   {
     "id": 44,
-    "module": "Security",
+    "module": "Salesforce Fundamentals",
     "question": "How should Cloud Kicks grant scorecard access to reps, managers, and executives while preventing reps from seeing executive comment fields?",
     "options": [
       "Use a private sharing model granting record access using hierarchy; manage field access with record types and field-level security.",
@@ -726,7 +726,7 @@
   },
   {
     "id": 48,
-    "module": "Reporting",
+    "module": "Salesforce Fundamentals",
     "question": "Universal Containers (UC) requires that all users specify a contract is sent on each Opportunity prior to marking it as 'Closed Won'. Which field type should be configured?",
     "options": [
       "Checkbox",
@@ -862,7 +862,7 @@
   },
   {
     "id": 57,
-    "module": "AppExchange",
+    "module": "Salesforce Fundamentals",
     "question": "What should the app builder do to meet a deadline for a customized survey solution with little time to build from scratch?",
     "options": [
       "Work with a developer to create custom Apex code and Visualforce survey.",
@@ -937,7 +937,7 @@
   },
   {
     "id": 62,
-    "module": "Security",
+    "module": "Salesforce Fundamentals",
     "question": "In a master-detail relationship, what determines the ownership and sharing access of the detail record?",
     "options": [
       "The Owner field on the Master record.",
@@ -952,7 +952,7 @@
   },
   {
     "id": 63,
-    "module": "Security",
+    "module": "Salesforce Fundamentals",
     "question": "Which next steps ensure users can access new object and fields created in Schema Builder?",
     "options": [
       "Add the fields to the page layout on the object.",
