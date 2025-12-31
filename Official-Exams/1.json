@@ -79,7 +79,7 @@
   },
   {
     "id": 6,
-    "module": "Mobile",
+    "module": "User Interface",
     "question": "Sales representatives want to capture custom Feedback record details related to each Account. The sales reps want to accomplish this with minimal clicks on mobile. Which two solutions should be recommended in order to meet this requirement?",
     "options": [
       "Create an object-specific action on Account.",
@@ -801,7 +801,7 @@
   },
   {
     "id": 53,
-    "module": "Relationships",
+    "module": "Data Modeling and Management",
     "question": "A new app builder wants to see how standard objects and custom objects relate. Which functionality should the app builder use?",
     "options": [
       "Schema Builder",
@@ -892,7 +892,7 @@
   },
   {
     "id": 59,
-    "module": "Relationships",
+    "module": "Data Modeling and Management",
     "question": "The app builder is unable to implement a Roll-Up Summary field on Account for Opportunity amounts. Why?",
     "options": [
       "The default currency is not an active currency.",
