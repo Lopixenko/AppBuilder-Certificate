@@ -9,7 +9,7 @@ class QuestionBank {
       const response = await fetch('questions.json');
       const data = await response.json();
       this.questions = data;
-      this.assignUnits(this.questions);
+      assignUnitToQuestions(this.questions);
       console.log(`Cargadas ${this.questions.length} preguntas generales.`);
     } catch (error) {
       console.error('Error cargando questions.json:', error);
@@ -27,22 +27,35 @@ class QuestionBank {
     } catch (error) {
       alert(`No se pudo cargar el examen ${number}. Asegúrate de que el archivo Official-Exams/${number}.json exista.`);
       return null;
+      }
     }
   }
-  assignUnits(questions) {
     // Mapeo de palabras clave a unidades
     const units_keywords = {
-      'Configuration and Setup': 'Configuration and Setup',
-      'Salesforce Fundamentals' : 'Salesforce Fundamentals',
-      'Object Manager': 'Object Manager and Lightning App Builder',
-      'Sales and Marketing': 'Sales and Marketing Applications',
-      'Service and Support': 'Service and Support Applications',
-      'Productivity': 'Productivity and Collaboration',
-      'Data': 'Data and Analytics Management',
-      'Workflow': 'Workflow/Process Automation',
-      'Automation': 'Workflow/Process Automation'
-    };
-
+    'Configuration and Setup': ['Configuration and Setup'],
+    'Object Manager and Lightning App Builder': ['Object Manager and Lightning App Builder'],
+    'Sales and Marketing Applications': ['Sales and Marketing Applications'],
+    'Service and Support Applications': ['Service and Support Applications'],
+    'Productivity and Collaboration': ['Productivity and Collaboration'],
+    'Data and Analytics Management': ['Data and Analytics Management'],
+    'Workflow/Process Automation': ['Workflow/Process Automation']
+};
+    const appbuilder_units_keywords = {
+    'Salesforce Fundamentals': ['Salesforce Fundamentals'],
+    'Business Logic and Process Automation': ['Business Logic and Process Automation'],
+    'User Interface': ['User Interface'],
+    'App Deployment': ['App Deployment'],
+    'Data Modeling and Management': ['Data Modeling and Management']
+};
+function assignUnitToQuestions(questions) {
+  questions.forEach(q => {
+    if (appbuilder_units_keywords[q.module]) {
+      q.unit = q.module; // La unidad ahora es el mismo nombre del módulo
+    } else {
+      q.unit = 'Miscellaneous'; // Por si alguna pregunta queda sin categoría válida
+    }
+  });
+}
     questions.forEach(q => {
       let assigned = false;
       for (const key in units_keywords) {
@@ -54,8 +67,6 @@ class QuestionBank {
       }
       if (!assigned) q.unit = q.module || 'Miscellaneous';
     });
-  }
-}
 
 const app = new QuestionBank();
 let currentQuestions = [];
