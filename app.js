@@ -56,18 +56,6 @@ function assignUnitToQuestions(questions) {
     }
   });
 }
-    questions.forEach(q => {
-      let assigned = false;
-      for (const key in units_keywords) {
-        if (q.module && q.module.includes(key)) {
-          q.unit = units_keywords[key];
-          assigned = true;
-          break;
-        }
-      }
-      if (!assigned) q.unit = q.module || 'Miscellaneous';
-    });
-
 const app = new QuestionBank();
 let currentQuestions = [];
 let currentIndex = 0;
