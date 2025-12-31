@@ -1231,22 +1231,6 @@
     "explanation": "Escalation rules and Flows (Scheduled Paths) can trigger actions based on time elapsed."
   },
   {
-    "id": 81,
-    "module": "User Interface",
-    "question": "Which two places can an app builder go to see a list of available Custom Lightning components in their org?",
-    "options": [
-      "Lightning App Builder",
-      "Visualforce components in Setup",
-      "Salesforce Optimizer App",
-      "Lightning components in Setup"
-    ],
-    "correctAnswers": [
-      0,
-      3
-    ],
-    "explanation": "Custom components appear in the App Builder panel and under Setup > Lightning Components."
-  },
-  {
     "id": 82,
     "module": "Data Modeling and Management",
     "question": "Cloud Kicks needs to insert 25,000 records with deduplication for a custom object. Which tool should be used?",
