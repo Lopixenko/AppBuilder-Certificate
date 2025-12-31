@@ -13,7 +13,7 @@
       1,
       2
     ],
-    "explanation": "Out of Office allows users to show availability, and Polls are used for gathering team feedback[cite: 903, 913]."
+    "explanation": "Use 'Out of Office' to display user availability, and 'Polls' to collect feedback from team members."
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       1,
       3
     ],
-    "explanation": "An Approval Process handles the logic, and a Flow can trigger the submission automatically[cite: 930, 940]."
+    "explanation": "Use an Approval Process to manage approval logic and a Flow to automatically submit opportunities when criteria are met."
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       0,
       3
     ],
-    "explanation": "AppExchange components are standardly used in the Lightning App Builder for pages and can be launched via Quick Actions[cite: 956, 962]."
+    "explanation": "Purchased Lightning components can be added to pages with the Lightning App Builder or launched through Quick Actions."
   },
   {
     "id": 4,
@@ -60,7 +60,7 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Deployment Status shows the progress and results of the deployment[cite: 980, 984]."
+    "explanation": "Check 'Deployment Status' to view the progress and outcome of change set deployments."
   },
   {
     "id": 5,
@@ -75,7 +75,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Lightning record pages are modified specifically through the Lightning App Builder[cite: 1000, 1001]."
+    "explanation": "Use the Lightning App Builder to edit record pages and add installed Lightning components to the page."
   },
   {
     "id": 6,
@@ -91,7 +91,7 @@
       0,
       3
     ],
-    "explanation": "Object-specific actions combined with predefined values reduce data entry time on mobile[cite: 1022, 1025, 1030]."
+    "explanation": "Object-specific actions combined with predefined values reduce data entry time on mobile."
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
       1,
       2
     ],
-    "explanation": "Prerequisites for Campaign Members include existing records and formatted CSV data[cite: 184, 186, 188, 190]."
+    "explanation": "Prerequisites for Campaign Members include existing records and properly formatted CSV data."
   },
   {
     "id": 8,
@@ -124,7 +124,7 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Utility bars are configured within the App Manager for each specific app[cite: 1044, 1050]."
+    "explanation": "Utility bars are configured in the App Manager for each specific app."
   },
   {
     "id": 9,
@@ -139,7 +139,7 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Access to junction objects typically requires read access on both master records[cite: 1067, 1072]."
+    "explanation": "Access to junction objects typically requires read access on both master records."
   },
   {
     "id": 10,
@@ -154,7 +154,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Tabs deployed without profile metadata default to 'Default Off'[cite: 1091, 1094, 1103]."
+    "explanation": "Tabs deployed without profile metadata default to 'Default Off'."
   },
   {
     "id": 11,
@@ -169,7 +169,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "A summary report on the related object (Opportunities) is required to generate a chart for a record page[cite: 1116, 1119]."
+    "explanation": "A summary report on the related object (Opportunities) is required to generate a chart for a record page."
   },
   {
     "id": 12,
@@ -184,7 +184,7 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "PRIORVALUE allows comparison between the new value and the existing value in a validation rule[cite: 1135, 1137, 1141]."
+    "explanation": "PRIORVALUE allows comparison between the new value and the existing value in a validation rule."
   },
   {
     "id": 13,
@@ -199,7 +199,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Master-Detail relationship is required to use a Roll-Up Summary field (MAX) to find the highest value[cite: 1157, 1159]."
+    "explanation": "Master-Detail relationship is required to use a Roll-Up Summary field (MAX) to find the highest value."
   },
   {
     "id": 14,
@@ -214,7 +214,7 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "You cannot convert a Master-Detail relationship to a Lookup if there is an existing Roll-Up Summary field[cite: 1176, 1178, 1184]."
+    "explanation": "You cannot convert a Master-Detail relationship to a Lookup if there is an existing Roll-Up Summary field."
   },
   {
     "id": 15,
@@ -230,7 +230,7 @@
       2,
       3
     ],
-    "explanation": "Reports must be in shared folders and must contain a chart to be visible in the component[cite: 1198, 1204, 1206]."
+    "explanation": "Reports must be in shared folders and must contain a chart to be visible in the component."
   },
   {
     "id": 16,
@@ -245,7 +245,7 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "The Import Wizard supports deduplication for custom objects up to 50,000 records[cite: 208, 212]."
+    "explanation": "The Import Wizard supports deduplication for custom objects up to 50,000 records."
   },
   {
     "id": 17,
@@ -260,7 +260,7 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "New fields must be manually added to the field layout of a Custom Report Type[cite: 1221, 1227]."
+    "explanation": "New fields must be manually added to the field layout of a Custom Report Type."
   },
   {
     "id": 18,
@@ -276,7 +276,7 @@
       1,
       3
     ],
-    "explanation": "The 'Today' feature and custom app pages enhance mobile productivity[cite: 1243, 1249, 1252]."
+    "explanation": "The 'Today' feature and custom app pages enhance mobile productivity."
   },
   {
     "id": 19,
@@ -291,7 +291,7 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "The Enhanced List type allows for more visible fields and sorting capabilities[cite: 1268, 1274]."
+    "explanation": "The Enhanced List type allows for more visible fields and sorting capabilities."
   },
   {
     "id": 20,
@@ -306,7 +306,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Unmanaged packages cannot be upgraded directly; they must be uninstalled first[cite: 1291, 1293]."
+    "explanation": "Unmanaged packages cannot be upgraded directly; they must be uninstalled first."
   },
   {
     "id": 21,
@@ -321,7 +321,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Flow is the declarative tool capable of deleting records in Salesforce[cite: 1314, 1315]."
+    "explanation": "Flow is the declarative tool capable of deleting records in Salesforce."
   },
   {
     "id": 22,
@@ -336,7 +336,7 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Developer Pro Sandboxes support higher data limits (up to 1GB) and daily refreshes[cite: 1333, 1341]."
+    "explanation": "Developer Pro Sandboxes support higher data limits (up to 1GB) and daily refreshes."
   },
   {
     "id": 23,
@@ -352,7 +352,7 @@
       1,
       3
     ],
-    "explanation": "Lightning components are listed in Setup and available for drag-and-drop in the App Builder[cite: 1361, 1364, 1369, 1373]."
+    "explanation": "Lightning components are listed in Setup and available for drag-and-drop in the App Builder."
   },
   {
     "id": 24,
@@ -367,7 +367,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "The formula validates that the date is not blank and within 14 days when stage is 'Closed Won'[cite: 1384, 1389, 1390]."
+    "explanation": "The formula validates that the date is not blank and within 14 days when stage is 'Closed Won'."
   },
   {
     "id": 25,
@@ -382,7 +382,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "A Record-triggered flow can run specifically when a record is deleted[cite: 228, 230, 236]."
+    "explanation": "A Record-triggered flow can run specifically when a record is deleted."
   },
   {
     "id": 26,
@@ -397,7 +397,7 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "The IF statement checks if the nickname field is not blank[cite: 1410, 1415]."
+    "explanation": "The IF statement checks if the nickname field is not blank."
   },
   {
     "id": 27,
@@ -413,7 +413,7 @@
       0,
       3
     ],
-    "explanation": "Flows can be launched by a Quick Action or triggered by other processes[cite: 1435, 1436, 1442]."
+    "explanation": "Flows can be launched by a Quick Action or triggered by other processes."
   },
   {
     "id": 28,
@@ -428,7 +428,7 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "Flow is the recommended declarative way to update related records upon field changes[cite: 1457, 1465]."
+    "explanation": "Flow is the recommended declarative way to update related records upon field changes."
   },
   {
     "id": 29,
@@ -443,7 +443,7 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Partial Copy Sandboxes allow weekly refreshes and the use of templates to exclude objects[cite: 1481, 1488]."
+    "explanation": "Partial Copy Sandboxes allow weekly refreshes and the use of templates to exclude objects."
   },
   {
     "id": 30,
@@ -459,7 +459,7 @@
       1,
       3
     ],
-    "explanation": "Public groups and account post actions ensure organization-wide visibility[cite: 11, 18, 22]."
+    "explanation": "Public groups and account post actions ensure organization-wide visibility."
   },
   {
     "id": 31,
@@ -477,7 +477,7 @@
       1,
       2
     ],
-    "explanation": "Roll-up summaries support sum, min, and max calculations for these numeric and date types[cite: 38, 41, 48]."
+    "explanation": "Roll-up summaries support sum, min, and max calculations for these numeric and date types."
   },
   {
     "id": 32,
@@ -492,7 +492,7 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "The Path component highlights key fields needed at each stage of a process[cite: 252, 257]."
+    "explanation": "The Path component highlights key fields needed at each stage of a process."
   },
   {
     "id": 33,
@@ -507,7 +507,7 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Geolocation is specifically designed to store location coordinates[cite: 272, 276, 281]."
+    "explanation": "Geolocation is specifically designed to store location coordinates."
   },
   {
     "id": 34,
@@ -523,7 +523,7 @@
       0,
       1
     ],
-    "explanation": "Apps must be assigned to profiles and accessible via tabs to be used by users[cite: 295, 299, 301]."
+    "explanation": "Apps must be assigned to profiles and accessible via tabs to be used by users."
   },
   {
     "id": 35,
@@ -538,7 +538,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Criteria-based sharing rules grant access based on record values like 'Type'[cite: 321, 324]."
+    "explanation": "Criteria-based sharing rules grant access based on record values like 'Type'."
   },
   {
     "id": 36,
@@ -553,7 +553,7 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "An application object as the child in a Master-Detail relationship with Open Position allows multiple applications[cite: 343, 348]."
+    "explanation": "An application object as the child in a Master-Detail relationship with Open Position allows multiple applications."
   },
   {
     "id": 37,
@@ -568,7 +568,7 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Cross-object formulas can display parent (Account) fields on child (Opportunity) records[cite: 364, 370]."
+    "explanation": "Cross-object formulas can display parent (Account) fields on child (Opportunity) records."
   },
   {
     "id": 38,
@@ -583,7 +583,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Path provides visual guidance and key fields for each stage of a record[cite: 64, 67, 75]."
+    "explanation": "Path provides visual guidance and key fields for each stage of a record."
   },
   {
     "id": 39,
@@ -601,7 +601,7 @@
       3,
       4
     ],
-    "explanation": "Custom objects, fields, and code (Apex) are deployable via change sets[cite: 390, 394, 397, 398, 402]."
+    "explanation": "Custom objects, fields, and code (Apex) are deployable via change sets."
   },
   {
     "id": 40,
@@ -616,7 +616,7 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Master-Detail ensures the child records are deleted with the parent and share security[cite: 411, 415]."
+    "explanation": "Master-Detail ensures the child records are deleted with the parent and share security."
   },
   {
     "id": 41,
@@ -631,7 +631,7 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Formula fields can display images based on conditional logic[cite: 90, 94, 98]."
+    "explanation": "Formula fields can display images based on conditional logic."
   },
   {
     "id": 42,
@@ -647,7 +647,7 @@
       2,
       3
     ],
-    "explanation": "Profile and permission set settings directly control object-level delete permissions[cite: 118, 125, 128]."
+    "explanation": "Profile and permission set settings directly control object-level delete permissions."
   },
   {
     "id": 43,
@@ -662,7 +662,7 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Field-level security controls field visibility for specific profiles[cite: 433, 437]."
+    "explanation": "Field-level security controls field visibility for specific profiles."
   },
   {
     "id": 44,
@@ -677,7 +677,7 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Role hierarchies grant record-level access, while FLS controls field-level visibility[cite: 457, 464]."
+    "explanation": "Role hierarchies grant record-level access, while FLS controls field-level visibility."
   },
   {
     "id": 45,
@@ -692,7 +692,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Validation rules prevent saving a record if specific conditions (terms accepted) aren't met[cite: 481, 483]."
+    "explanation": "Validation rules prevent saving a record if specific conditions (terms accepted) aren't met."
   },
   {
     "id": 46,
@@ -707,7 +707,7 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "Importing existing formula values into a new text field preserves historical data[cite: 502, 508]."
+    "explanation": "Importing existing formula values into a new text field preserves historical data."
   },
   {
     "id": 47,
@@ -722,7 +722,7 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Roll-up summaries (COUNT) on the Account object can aggregate related Opportunities[cite: 523, 525, 529]."
+    "explanation": "Roll-up summaries (COUNT) on the Account object can aggregate related Opportunities."
   },
   {
     "id": 48,
@@ -737,7 +737,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "A checkbox is the simplest field for tracking binary conditions for reporting[cite: 543, 546]."
+    "explanation": "A checkbox is the simplest field for tracking binary conditions for reporting."
   },
   {
     "id": 49,
@@ -752,7 +752,7 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "MIN on the Close Date of 'Won' opportunities identifies the first purchase date[cite: 567, 572, 573]."
+    "explanation": "MIN on the Close Date of 'Won' opportunities identifies the first purchase date."
   },
   {
     "id": 50,
@@ -767,7 +767,7 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "Requests can be routed to a Public Group to ensure department members can approve[cite: 596, 603, 608]."
+    "explanation": "Requests can be routed to a Public Group to ensure department members can approve."
   },
   {
     "id": 51,
@@ -782,7 +782,7 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "A Flow launched by a button can collect user input and perform record updates[cite: 618, 620, 623]."
+    "explanation": "A Flow launched by a button can collect user input and perform record updates."
   },
   {
     "id": 52,
@@ -797,7 +797,7 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Quick Actions on the Account object allow for easy record creation with default values[cite: 637, 640]."
+    "explanation": "Quick Actions on the Account object allow for easy record creation with default values."
   },
   {
     "id": 53,
@@ -812,7 +812,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Schema Builder provides a visual representation of the data model[cite: 658, 661]."
+    "explanation": "Schema Builder provides a visual representation of the data model."
   },
   {
     "id": 54,
@@ -827,7 +827,7 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "TEXT() converts picklist values into strings for use in other fields[cite: 142, 148]."
+    "explanation": "TEXT() converts picklist values into strings for use in other fields."
   },
   {
     "id": 55,
@@ -843,7 +843,7 @@
       0,
       2
     ],
-    "explanation": "The combination of Flow and an Approval Process automates the required review[cite: 681, 684, 687]."
+    "explanation": "The combination of Flow and an Approval Process automates the required review."
   },
   {
     "id": 56,
@@ -858,7 +858,7 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "A lookup field on the child object creates a related list on the parent object[cite: 165, 169]."
+    "explanation": "A lookup field on the child object creates a related list on the parent object."
   },
   {
     "id": 57,
@@ -873,7 +873,7 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Unmanaged packages provide a pre-built base that can be further customized[cite: 705, 713]."
+    "explanation": "Unmanaged packages provide a pre-built base that can be further customized."
   },
   {
     "id": 58,
@@ -888,7 +888,7 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Cloning is the standard way to modify and resend a Change Set[cite: 732, 734, 736]."
+    "explanation": "Cloning is the standard way to modify and resend a Change Set."
   },
   {
     "id": 59,
@@ -903,7 +903,7 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Advanced Currency Management restricts Roll-Up summaries on Opportunity amount fields[cite: 753, 755, 759]."
+    "explanation": "Advanced Currency Management restricts Roll-Up summaries on Opportunity amount fields."
   },
   {
     "id": 60,
@@ -918,7 +918,7 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "Custom actions enable record updates directly from the record feed[cite: 776, 783]."
+    "explanation": "Custom actions enable record updates directly from the record feed."
   },
   {
     "id": 61,
@@ -933,7 +933,7 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Quick Actions on a parent object allow pre-populating fields on a new child record[cite: 798, 806]."
+    "explanation": "Quick Actions on a parent object allow pre-populating fields on a new child record."
   },
   {
     "id": 62,
@@ -948,7 +948,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Detail records inherit ownership and security from the Master record[cite: 823, 825]."
+    "explanation": "Detail records inherit ownership and security from the Master record."
   },
   {
     "id": 63,
@@ -964,7 +964,7 @@
       0,
       2
     ],
-    "explanation": "Users need both field-level access (Permission Set) and UI access (Page Layout)[cite: 841, 843, 846]."
+    "explanation": "Users need both field-level access (Permission Set) and UI access (Page Layout)."
   },
   {
     "id": 64,
@@ -979,7 +979,7 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Validation rules can enforce logical constraints and conditional requirements[cite: 864, 870, 877]."
+    "explanation": "Validation rules can enforce logical constraints and conditional requirements."
   },
   {
     "id": 65,
@@ -994,7 +994,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Standard best practice is to consolidate automation into one Flow per object to control execution order[cite: 886, 888]."
+    "explanation": "Standard best practice is to consolidate automation into one Flow per object to control execution order."
   },
   {
     "id": 66,
@@ -1007,8 +1007,12 @@
       "Public Groups",
       "Roles and Subordinates"
     ],
-    "correctAnswers": [2, 3, 4],
-    "explanation": "Manual sharing allows a record owner to share individual records with Users, Public Groups, and Roles/Subordinates[cite: 1503, 1508, 1509, 1511]."
+    "correctAnswers": [
+      2,
+      3,
+      4
+    ],
+    "explanation": "Manual sharing allows a record owner to share individual records with Users, Public Groups, and Roles/Subordinates."
   },
   {
     "id": 67,
@@ -1020,8 +1024,10 @@
       "Unable to reference the child records",
       "Formula field limit reached on the Account object"
     ],
-    "correctAnswers": [2],
-    "explanation": "Formula fields can only reference parent fields (Upward), not child records (Downward)[cite: 1522, 1527]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Formula fields can only reference parent fields (Upward), not child records (Downward)."
   },
   {
     "id": 68,
@@ -1033,8 +1039,11 @@
       "Roll-up summaries allow MAX, MIN, SUM, COUNT, AVG",
       "An object can have 20 lookup relationships"
     ],
-    "correctAnswers": [0, 1],
-    "explanation": "Standard limits allow 25 roll-ups per object, and roll-ups only work on master-detail relationships[cite: 1543, 1545, 1546]."
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Standard limits allow 25 roll-ups per object, and roll-ups only work on master-detail relationships."
   },
   {
     "id": 69,
@@ -1046,8 +1055,11 @@
       "The component requires a developer to add it",
       "My Domain must be deployed to use custom components"
     ],
-    "correctAnswers": [1, 3],
-    "explanation": "Custom components require My Domain to be enabled, and must be compatible with the specific page type[cite: 1561, 1563, 1566]."
+    "correctAnswers": [
+      1,
+      3
+    ],
+    "explanation": "Custom components require My Domain to be enabled, and must be compatible with the specific page type."
   },
   {
     "id": 70,
@@ -1059,8 +1071,11 @@
       "Change the Lead Matching Rule to Block on Create",
       "Change OWD for Leads to Public Read"
     ],
-    "correctAnswers": [0, 2],
-    "explanation": "Bypassing sharing rules allows the engine to see all records for matching, and setting the rule to 'Block' prevents creation[cite: 1581, 1582, 1585]."
+    "correctAnswers": [
+      0,
+      2
+    ],
+    "explanation": "Bypassing sharing rules allows the engine to see all records for matching, and setting the rule to 'Block' prevents creation."
   },
   {
     "id": 71,
@@ -1072,8 +1087,11 @@
       "Update the organization-wide defaults",
       "Update the Sales profile"
     ],
-    "correctAnswers": [1, 2],
-    "explanation": "To restrict access, change OWD to Private and then open access via criteria-based rules[cite: 1601, 1605, 1606]."
+    "correctAnswers": [
+      1,
+      2
+    ],
+    "explanation": "To restrict access, change OWD to Private and then open access via criteria-based rules."
   },
   {
     "id": 72,
@@ -1085,8 +1103,10 @@
       "Create a formula field on Account using ISPICKVAL",
       "Create a roll-up summary field on Account"
     ],
-    "correctAnswers": [0],
-    "explanation": "A cross-object formula on the Case can pull the parent Account's picklist value using TEXT()[cite: 1621, 1622]."
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "A cross-object formula on the Case can pull the parent Account's picklist value using TEXT()."
   },
   {
     "id": 73,
@@ -1098,8 +1118,10 @@
       "No profiles",
       "All profiles"
     ],
-    "correctAnswers": [3],
-    "explanation": "Fields created via Schema Builder are automatically visible to all profiles by default[cite: 1638, 1642]."
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Fields created via Schema Builder are automatically visible to all profiles by default."
   },
   {
     "id": 74,
@@ -1111,8 +1133,11 @@
       "Create criteria-based rules for master objects",
       "Set owners on both junction object relationships"
     ],
-    "correctAnswers": [1, 3],
-    "explanation": "Sharing for junction objects is controlled by the master records; 'Read/Write' on the relationship allows editing[cite: 1657, 1660]."
+    "correctAnswers": [
+      1,
+      3
+    ],
+    "explanation": "Sharing for junction objects is controlled by the master records; 'Read/Write' on the relationship allows editing."
   },
   {
     "id": 75,
@@ -1124,8 +1149,10 @@
       "Chatter approval",
       "Approval process"
     ],
-    "correctAnswers": [3],
-    "explanation": "Approval processes are used to automate the sign-off/authorization logic[cite: 1673, 1677]."
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Approval processes are used to automate the sign-off/authorization logic."
   },
   {
     "id": 76,
@@ -1137,8 +1164,10 @@
       "Master-detail on Position to Applicant",
       "Master-detail relationship on Open_Position to Application"
     ],
-    "correctAnswers": [3],
-    "explanation": "Creating a junction object with master-detail relationships to both records enables the many-to-many model[cite: 1690, 1694]."
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Creating a junction object with master-detail relationships to both records enables the many-to-many model."
   },
   {
     "id": 77,
@@ -1150,8 +1179,10 @@
       "Mobile navigation",
       "Object specific action"
     ],
-    "correctAnswers": [1],
-    "explanation": "Compact layouts control which fields appear in the highlights panel and mobile header[cite: 1709, 1710]."
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Compact layouts control which fields appear in the highlights panel and mobile header."
   },
   {
     "id": 78,
@@ -1163,8 +1194,10 @@
       "Update fields to be required on the page layout",
       "Configure a validation rule"
     ],
-    "correctAnswers": [3],
-    "explanation": "Validation rules enforce data quality at the database level, regardless of layout[cite: 1724, 1727]."
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Validation rules enforce data quality at the database level, regardless of layout."
   },
   {
     "id": 79,
@@ -1176,8 +1209,10 @@
       "Layout automatically clones the default page layout",
       "Available only when searching that particular object"
     ],
-    "correctAnswers": [1],
-    "explanation": "Global actions are available globally in the mobile app regardless of the current record[cite: 1736, 1738]."
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Global actions are available globally in the mobile app regardless of the current record."
   },
   {
     "id": 80,
@@ -1189,8 +1224,11 @@
       "Flow Builder",
       "Escalation Rules"
     ],
-    "correctAnswers": [2, 3],
-    "explanation": "Escalation rules and Flows (Scheduled Paths) can trigger actions based on time elapsed[cite: 1758, 1762, 1763]."
+    "correctAnswers": [
+      2,
+      3
+    ],
+    "explanation": "Escalation rules and Flows (Scheduled Paths) can trigger actions based on time elapsed."
   },
   {
     "id": 81,
@@ -1202,8 +1240,11 @@
       "Salesforce Optimizer App",
       "Lightning components in Setup"
     ],
-    "correctAnswers": [0, 3],
-    "explanation": "Custom components appear in the App Builder panel and under Setup > Lightning Components[cite: 1771, 1773, 1776]."
+    "correctAnswers": [
+      0,
+      3
+    ],
+    "explanation": "Custom components appear in the App Builder panel and under Setup > Lightning Components."
   },
   {
     "id": 82,
@@ -1215,8 +1256,10 @@
       "Import Wizard",
       "Data Loader"
     ],
-    "correctAnswers": [2],
-    "explanation": "The Import Wizard supports deduplication for custom objects up to 50,000 records[cite: 1791, 1795]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "The Import Wizard supports deduplication for custom objects up to 50,000 records."
   },
   {
     "id": 83,
@@ -1228,8 +1271,10 @@
       "Roll-up Summary Field",
       "Activity Timeline"
     ],
-    "correctAnswers": [2],
-    "explanation": "Roll-up summaries can count related records using filter criteria (Status and Date)[cite: 1809, 1813]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Roll-up summaries can count related records using filter criteria (Status and Date)."
   },
   {
     "id": 84,
@@ -1241,8 +1286,10 @@
       "The sandbox reached capacity",
       "The sandbox is still populating data"
     ],
-    "correctAnswers": [1],
-    "explanation": "Partial sandboxes only copy data defined in the Sandbox Template[cite: 1827, 1829]."
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Partial sandboxes only copy data defined in the Sandbox Template."
   },
   {
     "id": 85,
@@ -1254,8 +1301,10 @@
       "Deployed permission set will merge with existing permissions",
       "Permission set will be overwritten"
     ],
-    "correctAnswers": [2],
-    "explanation": "Deploying a permission set adds/updates permissions but does not remove existing ones (merge behavior)[cite: 1842, 1845]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Deploying a permission set adds/updates permissions but does not remove existing ones (merge behavior)."
   },
   {
     "id": 86,
@@ -1267,8 +1316,10 @@
       "MID(Account.Zip_Code__c, 1, 5)",
       "TEXT(Account.Zip_Code__c, 5)"
     ],
-    "correctAnswers": [1],
-    "explanation": "The LEFT() function extracts a specific number of characters starting from the left[cite: 1859, 1860]."
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "The LEFT() function extracts a specific number of characters starting from the left."
   },
   {
     "id": 87,
@@ -1280,8 +1331,10 @@
       "Validation Rule",
       "Activity History"
     ],
-    "correctAnswers": [2],
-    "explanation": "Validation rules enforce field population based on logical criteria[cite: 1870, 1874]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Validation rules enforce field population based on logical criteria."
   },
   {
     "id": 88,
@@ -1293,8 +1346,10 @@
       "Import Wizard match on Salesforce ID",
       "Duplicate match rule and Data Loader"
     ],
-    "correctAnswers": [1],
-    "explanation": "An External ID field marked as 'Unique' allows the Upsert operation to update or insert[cite: 1889, 1890]."
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "An External ID field marked as 'Unique' allows the Upsert operation to update or insert."
   },
   {
     "id": 89,
@@ -1306,8 +1361,10 @@
       "Scratch Orgs",
       "Full copy sandboxes"
     ],
-    "correctAnswers": [1],
-    "explanation": "Cloning an existing sandbox allows creating multiple identical environments quickly[cite: 1907, 1909]."
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Cloning an existing sandbox allows creating multiple identical environments quickly."
   },
   {
     "id": 90,
@@ -1319,8 +1376,10 @@
       "Refresh the test sandbox and re-deploy",
       "Rename the change set and re-deploy"
     ],
-    "correctAnswers": [1],
-    "explanation": "Once a Change Set is uploaded, it cannot be edited; it must be cloned to add new changes[cite: 1925, 1927]."
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Once a Change Set is uploaded, it cannot be edited; it must be cloned to add new changes."
   },
   {
     "id": 91,
@@ -1332,8 +1391,10 @@
       "Custom link on Account",
       "Object-specific Action"
     ],
-    "correctAnswers": [3],
-    "explanation": "Object-specific 'Create Record' actions allow pre-defining field values based on the parent record[cite: 1943, 1946]."
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Object-specific 'Create Record' actions allow pre-defining field values based on the parent record."
   },
   {
     "id": 92,
@@ -1346,8 +1407,12 @@
       "Custom fields",
       "Lightning App Builder"
     ],
-    "correctAnswers": [0, 1, 3],
-    "explanation": "A layout deployment requires the layout itself, the fields used, and profile settings for visibility[cite: 1957, 1959, 1961, 1962]."
+    "correctAnswers": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "A layout deployment requires the layout itself, the fields used, and profile settings for visibility."
   },
   {
     "id": 93,
@@ -1359,8 +1424,10 @@
       "Record-triggered Flow",
       "Screen Flow"
     ],
-    "correctAnswers": [2],
-    "explanation": "Record-triggered flows are the standard for multi-action automation on record updates[cite: 1979, 1982]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Record-triggered flows are the standard for multi-action automation on record updates."
   },
   {
     "id": 94,
@@ -1372,8 +1439,10 @@
       "Change relationship to master-detail",
       "Add fields related via lookup in the Report Type"
     ],
-    "correctAnswers": [3],
-    "explanation": "Report types allow adding fields from lookup objects via the 'Add fields related via lookup' button[cite: 1996, 1997]."
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Report types allow adding fields from lookup objects via the 'Add fields related via lookup' button."
   },
   {
     "id": 95,
@@ -1385,8 +1454,10 @@
       "Auto-response rule",
       "Feed quick action"
     ],
-    "correctAnswers": [0],
-    "explanation": "Feed tracking automatically posts updates to the record feed when tracked fields change[cite: 2009, 2010]."
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Feed tracking automatically posts updates to the record feed when tracked fields change."
   },
   {
     "id": 96,
@@ -1398,8 +1469,10 @@
       "Flow",
       "Approval Process"
     ],
-    "correctAnswers": [1],
-    "explanation": "Roll-up summaries can aggregate data from child records to parent records[cite: 2026, 2027]."
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Roll-up summaries can aggregate data from child records to parent records."
   },
   {
     "id": 97,
@@ -1411,8 +1484,10 @@
       "Package features not compatible",
       "Apex unit test failures"
     ],
-    "correctAnswers": [3],
-    "explanation": "Production deployments require successful execution of Apex unit tests (75% coverage)[cite: 2041, 2047]."
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Production deployments require successful execution of Apex unit tests (75% coverage)."
   },
   {
     "id": 98,
@@ -1424,8 +1499,10 @@
       "Lightning component",
       "Rich Text Area"
     ],
-    "correctAnswers": [3],
-    "explanation": "Rich Text Area fields support formatted text, images, and hyperlinks[cite: 2058, 2061]."
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Rich Text Area fields support formatted text, images, and hyperlinks."
   },
   {
     "id": 99,
@@ -1437,8 +1514,10 @@
       "Concatenate(Street, City, Planet, Galaxy)",
       "Street \\n City, Planet Galaxy"
     ],
-    "correctAnswers": [1],
-    "explanation": "The BR() function adds a line break in a formula field[cite: 2078]."
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "The BR() function adds a line break in a formula field."
   },
   {
     "id": 100,
@@ -1450,8 +1529,10 @@
       "Create accounts for each entity and use Account Hierarchy",
       "Both as accounts, use account teams and associate dealers with parent"
     ],
-    "correctAnswers": [3],
-    "explanation": "Using individual accounts with the 'Parent Account' field allows for hierarchy and separate billing[cite: 2090, 2095]."
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Using individual accounts with the 'Parent Account' field allows for hierarchy and separate billing."
   },
   {
     "id": 101,
@@ -1463,8 +1544,10 @@
       "Report type is Deployed",
       "Object access is unavailable"
     ],
-    "correctAnswers": [1],
-    "explanation": "Report types in 'In Development' status are only visible to administrators[cite: 2107, 2109]."
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Report types in 'In Development' status are only visible to administrators."
   },
   {
     "id": 102,
@@ -1476,8 +1559,10 @@
       "Create a permission set with read-only FLS and assign it",
       "Update existing Customer Service profile"
     ],
-    "correctAnswers": [2],
-    "explanation": "Permission sets allow granting specific additional access to individual users[cite: 2148, 2152]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Permission sets allow granting specific additional access to individual users."
   },
   {
     "id": 103,
@@ -1489,8 +1574,10 @@
       "Guided Action Flows",
       "Add Path to Case layout"
     ],
-    "correctAnswers": [2],
-    "explanation": "Guided Action Flows (Screen Flows) can prompt agents with identity verification steps[cite: 2165, 2169]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Guided Action Flows (Screen Flows) can prompt agents with identity verification steps."
   },
   {
     "id": 104,
@@ -1503,8 +1590,12 @@
       "Create criteria-based Sharing Rule for HR Department",
       "Add Master-Detail field"
     ],
-    "correctAnswers": [0, 1, 3],
-    "explanation": "OWD Private hides records; disabling hierarchy stops manager visibility; sharing rules open it for HR[cite: 2185, 2188, 2189, 2191]."
+    "correctAnswers": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "OWD Private hides records; disabling hierarchy stops manager visibility; sharing rules open it for HR."
   },
   {
     "id": 105,
@@ -1516,8 +1607,11 @@
       "Phone field",
       "URL field"
     ],
-    "correctAnswers": [0, 1],
-    "explanation": "Text, Number, and Email fields can be marked as External IDs[cite: 2206, 2208, 2209]."
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Text, Number, and Email fields can be marked as External IDs."
   },
   {
     "id": 106,
@@ -1529,8 +1623,10 @@
       "Developer Pro",
       "Full Copy"
     ],
-    "correctAnswers": [0],
-    "explanation": "Partial Copy sandboxes have a 5GB limit and a 5-day refresh interval[cite: 2223, 2224]."
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Partial Copy sandboxes have a 5GB limit and a 5-day refresh interval."
   },
   {
     "id": 107,
@@ -1542,8 +1638,10 @@
       "Custom detail page link on Contract",
       "Quick Action on Contract"
     ],
-    "correctAnswers": [2],
-    "explanation": "Detail page links can direct users to external or internal documents/URLs[cite: 2239, 2243]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Detail page links can direct users to external or internal documents/URLs."
   },
   {
     "id": 108,
@@ -1555,8 +1653,11 @@
       "Custom objects cannot be on detail side",
       "Already 2 master-detail relationships on the object"
     ],
-    "correctAnswers": [1, 3],
-    "explanation": "Master-Detail requires all records to have a parent; only 2 MDs are allowed per object[cite: 2261, 2264, 2265]."
+    "correctAnswers": [
+      1,
+      3
+    ],
+    "explanation": "Master-Detail requires all records to have a parent; only 2 MDs are allowed per object."
   },
   {
     "id": 109,
@@ -1568,8 +1669,10 @@
       "Flow",
       "Validation Rule"
     ],
-    "correctAnswers": [2],
-    "explanation": "Record-triggered flows can update field values (clear them) based on conditions[cite: 2277, 2280]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Record-triggered flows can update field values (clear them) based on conditions."
   },
   {
     "id": 110,
@@ -1581,8 +1684,10 @@
       "Flow",
       "Apex"
     ],
-    "correctAnswers": [2],
-    "explanation": "Flows (specifically Fast Field Updates) can copy parent data on creation only[cite: 2297, 2299]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Flows (specifically Fast Field Updates) can copy parent data on creation only."
   },
   {
     "id": 111,
@@ -1594,8 +1699,10 @@
       "Data Export Service",
       "Report export"
     ],
-    "correctAnswers": [2],
-    "explanation": "The Data Export Service allows for scheduled exports of the entire org[cite: 2312, 2316]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "The Data Export Service allows for scheduled exports of the entire org."
   },
   {
     "id": 112,
@@ -1607,8 +1714,10 @@
       "Lead object on community",
       "Lead record types each with a unique page layout"
     ],
-    "correctAnswers": [3],
-    "explanation": "Record types allow presenting different layouts/fields to users based on record content[cite: 2332, 2334]."
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Record types allow presenting different layouts/fields to users based on record content."
   },
   {
     "id": 113,
@@ -1620,8 +1729,10 @@
       "ISPICKVAL(Sales_Organization__c, 'Canada') && ISBLANK(TEXT(Pricing_Tier__c))",
       "IF(Sales_Organization__c = 'Canada', ISBLANK(Pricing_Tier__c), FALSE)"
     ],
-    "correctAnswers": [2],
-    "explanation": "Validation rules for picklists require ISPICKVAL and checking if the value is blank[cite: 2345, 2346]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Validation rules for picklists require ISPICKVAL and checking if the value is blank."
   },
   {
     "id": 114,
@@ -1633,8 +1744,10 @@
       "Chat with members of their groups",
       "Invite members to groups"
     ],
-    "correctAnswers": [2],
-    "explanation": "Customer users in Chatter can only interact within the specific groups they are invited to[cite: 2360, 2363]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Customer users in Chatter can only interact within the specific groups they are invited to."
   },
   {
     "id": 115,
@@ -1646,8 +1759,10 @@
       "AppExchange",
       "Detail page layout"
     ],
-    "correctAnswers": [1],
-    "explanation": "Dynamic Lightning Pages allow components to be shown/hidden based on profile criteria[cite: 2378, 2380]."
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Dynamic Lightning Pages allow components to be shown/hidden based on profile criteria."
   },
   {
     "id": 116,
@@ -1659,8 +1774,10 @@
       "Related Record component",
       "Advanced list type component"
     ],
-    "correctAnswers": [2],
-    "explanation": "Related record components can show data from lookup relationships dynamically[cite: 2392, 2395]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Related record components can show data from lookup relationships dynamically."
   },
   {
     "id": 117,
@@ -1672,8 +1789,11 @@
       "Master-Detail",
       "External ID"
     ],
-    "correctAnswers": [0, 3],
-    "explanation": "Upserting requires an External ID; marking it Unique ensures record integrity[cite: 2411, 2414, 2416]."
+    "correctAnswers": [
+      0,
+      3
+    ],
+    "explanation": "Upserting requires an External ID; marking it Unique ensures record integrity."
   },
   {
     "id": 118,
@@ -1685,8 +1805,10 @@
       "Update record with related record component",
       "Update record action with details component"
     ],
-    "correctAnswers": [2],
-    "explanation": "The Related Record component in App Builder allows editing of a parent record[cite: 2425, 2429]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "The Related Record component in App Builder allows editing of a parent record."
   },
   {
     "id": 119,
@@ -1698,8 +1820,10 @@
       "Two master-detail relationships on new custom object",
       "Lookup relationships on both objects"
     ],
-    "correctAnswers": [2],
-    "explanation": "A junction object with two master-details creates a many-to-many relationship[cite: 2447, 2451]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "A junction object with two master-details creates a many-to-many relationship."
   },
   {
     "id": 120,
@@ -1711,8 +1835,10 @@
       "Public security model",
       "Opportunities pipeline report"
     ],
-    "correctAnswers": [0],
-    "explanation": "Campaign Hierarchies aggregate statistics to measure marketing performance[cite: 2463, 2465]."
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Campaign Hierarchies aggregate statistics to measure marketing performance."
   },
   {
     "id": 121,
@@ -1724,8 +1850,10 @@
       "Standard Chatter feed component",
       "Custom Chatter component"
     ],
-    "correctAnswers": [2],
-    "explanation": "App Builder includes a standard Chatter component for all feed-enabled objects[cite: 2479, 2482]."
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "App Builder includes a standard Chatter component for all feed-enabled objects."
   },
   {
     "id": 122,
@@ -1737,8 +1865,10 @@
       "Roll-up not possible",
       "Roll-up with filter"
     ],
-    "correctAnswers": [1],
-    "explanation": "Roll-up summaries are only natively available on Master-Detail relationships[cite: 2498, 2499]."
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Roll-up summaries are only natively available on Master-Detail relationships."
   },
   {
     "id": 123,
@@ -1750,8 +1880,11 @@
       "Import Wizard Update",
       "Select 'Insert Null Values' in Data Loader settings"
     ],
-    "correctAnswers": [1, 3],
-    "explanation": "To clear fields (set to null), Data Loader must be configured to allow null values[cite: 2514, 2518, 2520]."
+    "correctAnswers": [
+      1,
+      3
+    ],
+    "explanation": "To clear fields (set to null), Data Loader must be configured to allow null values."
   },
   {
     "id": 124,
@@ -1763,8 +1896,10 @@
       "AppExchange app",
       "Apex"
     ],
-    "correctAnswers": [0],
-    "explanation": "Roll-up summaries support filter criteria (e.g., Status = 'Active')[cite: 2533, 2534]."
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Roll-up summaries support filter criteria (e.g., Status = 'Active')."
   },
   {
     "id": 125,
@@ -1777,8 +1912,12 @@
       "Review Contact Hierarchy",
       "Verify access to Contact object"
     ],
-    "correctAnswers": [0, 2, 4],
-    "explanation": "Check OWD for record-level access, object permissions, and sharing rules[cite: 2548, 2550, 2551, 2552]."
+    "correctAnswers": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "Check OWD for record-level access, object permissions, and sharing rules."
   },
   {
     "id": 126,
@@ -1790,8 +1929,11 @@
       "Apex",
       "Validation Rule"
     ],
-    "correctAnswers": [1, 2],
-    "explanation": "When standard roll-ups (Lookup) aren't available, Apex or AppExchange apps (like DLRS) are used[cite: 2565, 2569, 2570]."
+    "correctAnswers": [
+      1,
+      2
+    ],
+    "explanation": "When standard roll-ups (Lookup) aren't available, Apex or AppExchange apps (like DLRS) are used."
   },
   {
     "id": 127,
@@ -1803,8 +1945,10 @@
       "Screen Flow",
       "Process Builder"
     ],
-    "correctAnswers": [0],
-    "explanation": "Triggers can increment a counter whenever a record state changes (e.g., Closed to Open)[cite: 2581, 2582]."
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Triggers can increment a counter whenever a record state changes (e.g., Closed to Open)."
   },
   {
     "id": 128,
@@ -1816,8 +1960,10 @@
       "Formula field assignment",
       "Set up Delegated Approver for the manager"
     ],
-    "correctAnswers": [3],
-    "explanation": "Delegated approvers can handle approvals when the primary approver is away[cite: 2600, 2605]."
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Delegated approvers can handle approvals when the primary approver is away."
   },
   {
     "id": 129,
@@ -1829,7 +1975,9 @@
       "Error message pops up",
       "Information remains as is"
     ],
-    "correctAnswers": [1],
-    "explanation": "Changing a field type to a shorter character limit results in truncation[cite: 2618, 2619]."
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Changing a field type to a shorter character limit results in truncation."
   }
 ]
