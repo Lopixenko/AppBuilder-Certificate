@@ -490,7 +490,7 @@
       "Add the Path component to the Lightning record page."
     ],
     "correctAnswers": [
-      3
+      0
     ],
     "explanation": "The Path component highlights key fields needed at each stage of a process."
   },
@@ -551,7 +551,7 @@
       "Create a master-detail relationship field on Applicant to Open Position."
     ],
     "correctAnswers": [
-      2
+      0
     ],
     "explanation": "An application object as the child in a Master-Detail relationship with Open Position allows multiple applications."
   },
