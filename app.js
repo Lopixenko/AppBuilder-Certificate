@@ -33,6 +33,7 @@ class QuestionBank {
     // Mapeo de palabras clave a unidades
     const units_keywords = {
       'Configuration and Setup': 'Configuration and Setup',
+      'Salesforce Fundamentals' : 'Salesforce Fundamentals',
       'Object Manager': 'Object Manager and Lightning App Builder',
       'Sales and Marketing': 'Sales and Marketing Applications',
       'Service and Support': 'Service and Support Applications',
