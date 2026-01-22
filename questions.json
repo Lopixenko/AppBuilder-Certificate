@@ -386,7 +386,7 @@
   },
   {
     "id": 26,
-    "module": "Formulas",
+    "module": "Business Logic and Process Automation",
     "question": "Nickname_c is a custom text field used to override the contact name. Which formula should an app builder use to select the preferred name if Nickname_c is not blank, otherwise use FirstName?",
     "options": [
       "IF (ISNULL (Nickname_c), Nickname, firstName)",
@@ -620,7 +620,7 @@
   },
   {
     "id": 41,
-    "module": "Formulas",
+    "module": "Business Logic and Process Automation",
     "question": "New cases populate a green circle, day-old cases a yellow circle, and three day-old cases a red circle. How should an app builder implement this?",
     "options": [
       "Custom Button",
@@ -816,7 +816,7 @@
   },
   {
     "id": 54,
-    "module": "Formulas",
+    "module": "Business Logic and Process Automation",
     "question": "Ursa Major Solar wants to see the Type field from parent Galaxy on child Star. Which formula should be used to avoid picklist function errors?",
     "options": [
       "ISPICKVAL (Galaxy_r.Type_c)",
