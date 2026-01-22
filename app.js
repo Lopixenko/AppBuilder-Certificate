@@ -244,7 +244,42 @@ function renderQuestionWithFeedback(question, titleContext) {
   };
   appDiv.appendChild(submitBtn);
 }
+  // ---- Flechas de navegación al fondo a la derecha ----
+  const navDiv = document.createElement('div');
+  navDiv.className = 'question-nav-buttons';
 
+  // Botón flecha izquierda (←)
+  if (currentIndex > 0) {
+    const prevBtn = document.createElement('button');
+    prevBtn.innerHTML = '&#8592;';
+    prevBtn.className = 'nav-arrow-btn';
+    prevBtn.onclick = function () {
+      currentIndex -= 1;
+      showQuestion(currentQuestions[currentIndex]);
+    };
+    navDiv.appendChild(prevBtn);
+  }
+
+  // Botón flecha derecha (→)
+  if (currentIndex < currentQuestions.length - 1) {
+    const nextBtn = document.createElement('button');
+    nextBtn.innerHTML = '&#8594;';
+    nextBtn.className = 'nav-arrow-btn';
+    nextBtn.onclick = function () {
+      currentIndex += 1;
+      showQuestion(currentQuestions[currentIndex]);
+    };
+    navDiv.appendChild(nextBtn);
+  } else {
+    // Si es la última pregunta, botón finalizar
+    const finishBtn = document.createElement('button');
+    finishBtn.textContent = 'Finalizar';
+    finishBtn.onclick = showEndScreen;
+    finishBtn.className = 'nav-arrow-btn';
+    navDiv.appendChild(finishBtn);
+  }
+
+  appDiv.appendChild(navDiv);
 // Renderizador B: Para Exámenes (Clásico - Guarda respuesta y pasa)
 function renderClassicExamQuestion(question, titleContext) {
   const appDiv = document.getElementById('app');
