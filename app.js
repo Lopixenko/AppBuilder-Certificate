@@ -244,7 +244,7 @@ function renderQuestionWithFeedback(question, titleContext) {
   };
   
   appDiv.appendChild(submitBtn);
-
+  
   // ---- Flechas de navegación al fondo a la derecha ----
   const navDiv = document.createElement('div');
   navDiv.className = 'question-nav-buttons';
@@ -260,8 +260,6 @@ function renderQuestionWithFeedback(question, titleContext) {
     };
     navDiv.appendChild(prevBtn);
   }
-
-
   // Botón flecha derecha (→)
   if (currentIndex < currentQuestions.length - 1) {
     const nextBtn = document.createElement('button');
@@ -282,6 +280,7 @@ function renderQuestionWithFeedback(question, titleContext) {
   }
 
   appDiv.appendChild(navDiv);
+}
 // Renderizador B: Para Exámenes (Clásico - Guarda respuesta y pasa)
 function renderClassicExamQuestion(question, titleContext) {
   const appDiv = document.getElementById('app');
@@ -528,5 +527,4 @@ function showExamResults(title) {
   }
 
   createButton(appDiv, 'Volver al Menú Principal', showMainMenu);
-}
 }
