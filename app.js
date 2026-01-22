@@ -267,7 +267,7 @@ function renderQuestionWithFeedback(question, titleContext) {
     nextBtn.className = 'nav-arrow-btn';
     nextBtn.onclick = function () {
       currentIndex += 1;
-      showQuestion(currentQuestions[currentIndex]);
+      renderQuestionWithFeedback(currentQuestions[currentIndex]);
     };
     navDiv.appendChild(nextBtn);
   } else {
