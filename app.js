@@ -242,8 +242,9 @@ function renderQuestionWithFeedback(question, titleContext) {
         }
     });
   };
+  
   appDiv.appendChild(submitBtn);
-}
+  
   // ---- Flechas de navegación al fondo a la derecha ----
   const navDiv = document.createElement('div');
   navDiv.className = 'question-nav-buttons';
@@ -259,6 +260,7 @@ function renderQuestionWithFeedback(question, titleContext) {
     };
     navDiv.appendChild(prevBtn);
   }
+}
 
   // Botón flecha derecha (→)
   if (currentIndex < currentQuestions.length - 1) {
