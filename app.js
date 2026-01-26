@@ -210,7 +210,7 @@ function startBlockingStudyMode(questions, title, examId) {
 // --- RENDERS DE PREGUNTAS ---
 
 // Renderizador A: Para Units (Muestra explicación y botón siguiente)
-function renderQuestionWithFeedback(question, titleContext) {
+function renderQuestionWithFeedback(question, titleContext, unit) {
   const appDiv = document.getElementById('app');
   appDiv.innerHTML = '';
   createBackButton(appDiv, showMainMenu);
@@ -274,7 +274,7 @@ function renderQuestionWithFeedback(question, titleContext) {
     // Si es la última pregunta, botón finalizar
     const finishBtn = document.createElement('button');
     finishBtn.textContent = 'Finalizar';
-    finishBtn.onclick = () => showEndScreen(titleContext, false);
+    finishBtn.onclick = () => showEndScreen(unit, false);
     finishBtn.className = 'nav-arrow-btn';
     navDiv.appendChild(finishBtn);
   }
