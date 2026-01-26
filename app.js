@@ -256,7 +256,7 @@ function renderQuestionWithFeedback(question, titleContext, unit) {
     prevBtn.className = 'nav-arrow-btn';
     prevBtn.onclick = function () {
       currentIndex -= 1;
-      renderQuestionWithFeedback(currentQuestions[currentIndex], unit);
+      renderQuestionWithFeedback(currentQuestions[currentIndex], titleContext);
     };
     navDiv.appendChild(prevBtn);
   }
@@ -267,14 +267,14 @@ function renderQuestionWithFeedback(question, titleContext, unit) {
     nextBtn.className = 'nav-arrow-btn';
     nextBtn.onclick = function () {
       currentIndex += 1;
-      renderQuestionWithFeedback(currentQuestions[currentIndex], unit);
+      renderQuestionWithFeedback(currentQuestions[currentIndex], titleContext);
     };
     navDiv.appendChild(nextBtn);
   } else {
     // Si es la última pregunta, botón finalizar
     const finishBtn = document.createElement('button');
     finishBtn.textContent = 'Finalizar';
-    finishBtn.onclick = () => showEndScreen(unit, false);
+    finishBtn.onclick = () => showEndScreen(titleContext, false);
     finishBtn.className = 'nav-arrow-btn';
     navDiv.appendChild(finishBtn);
   }
