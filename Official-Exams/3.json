@@ -760,7 +760,7 @@
   {
     "id": 59,
     "module": "Business Logic and Process Automation",
-    "question": "How can an app builder ensure opportunities are automatically submitted into the approval process?",
+    "question": "When an opportunity is closed date is pushed more than 30 days, manager approval is required. An approval process is in place but reps frequently forget to submit for approval to run the process.How can an app builder ensure that these opportunities are submitted into the approval process?",
     "options": [
       "Change entry criteria on the approval process.",
       "Submit the record for approval from an automated process.",
@@ -845,7 +845,7 @@
       "For use in Lightning App Builder.",
       "For use on the utility bar."
     ],
-    "correctAnswers": [2],
+    "correctAnswers": [3],
     "explanation": "Components must be enabled for specific Lightning interfaces in their metadata to be visible in the App Builder."
   }
 ]

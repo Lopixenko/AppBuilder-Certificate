@@ -418,7 +418,7 @@
   {
     "id": 28,
     "module": "Business Logic and Process Automation",
-    "question": "Which tool should an app builder recommend to auto-populate a field on the Asset record when a maintenance work order gets closed?",
+    "question": "Ursa Major Solar's service department needs to determine the last maintenance date on an asset to assess contract compliance. Due to multiple work orders, identifying the last maintenance date is challenging. The department wants a field to be auto-populated on the Asset record when a maintenance work order is closed. Which tool should an app builder recommend to help meet this requirement?",
     "options": [
       "Roll-up Summary",
       "Apex Trigger",
@@ -475,7 +475,7 @@
     "correctAnswers": [
       0,
       1,
-      2
+      4
     ],
     "explanation": "Roll-up summaries support sum, min, and max calculations for these numeric and date types."
   },
@@ -558,7 +558,7 @@
   {
     "id": 37,
     "module": "Data Modeling and Management",
-    "question": "Universal Containers uses a custom picklist on the Account object. The VP of sales asked that the value of this field is visible on Opportunities. How should an app builder create this solution?",
+    "question": "Universal Containers uses a custom picklist called Account_region__c on the Account object. The VP of sales asked that the value of this field is visible on Opportunities. How should an app builder create this solution?",
     "options": [
       "Field history tracking",
       "Cross-object formula field",
@@ -573,7 +573,7 @@
   {
     "id": 38,
     "module": "App Deployment",
-    "question": "Sales reps want recommendations, sales strategies and to know what key fields need to be completed at each step of the sales process on the opportunity record. Which feature should be used?",
+    "question": "Sales managers at Cloud Kicks would like to standardize what information sales reps are gathering. Sales reps want recommendations, sales strategies and to know what key fields need to be completed at each step of the sales process on the opportunity record. Which feature should an app builder use to provide this functionality?",
     "options": [
       "Path",
       "Chatter Feed",
@@ -588,7 +588,7 @@
   {
     "id": 39,
     "module": "App Deployment",
-    "question": "Which three common items can an app builder move when using a change set?",
+    "question": "Due to the complexity of the Universal Containers sandbox release schedule and requirements, it is advised that change sets are used as often as possible to migrate from one environment to another. Which three common items can an app builder move when using a change set?",
     "options": [
       "Web-to-lead",
       "Standard fields",
@@ -621,7 +621,7 @@
   {
     "id": 41,
     "module": "Business Logic and Process Automation",
-    "question": "New cases populate a green circle, day-old cases a yellow circle, and three day-old cases a red circle. How should an app builder implement this?",
+    "question": "The Service Manager has provided the app builder with color code requirements for case age on open cases: New cases populate a green circle. Day-old cases populate a yellow circle. Three day-old cases populate a red circle. How should an app builder implement this requirement?",
     "options": [
       "Custom Button",
       "Quick Action",
@@ -636,12 +636,12 @@
   {
     "id": 42,
     "module": "Salesforce Fundamentals",
-    "question": "Which two actions should the app builder take to prevent users in the shipping department from deleting delivery records?",
+    "question": "The app builder at Cloud Kicks has created a custom object named Delivery__c to track the details of products shipped to customers. Which two actions should the app builder take to prevent users in the shipping department from deleting delivery records?",
     "options": [
       "Remove the delete button from the Delivery page layout.",
-      "Change the organization-wide default of deliveries to Private.",
-      "Use a permission set to remove the Delete permission",
-      "Remove the Delete permission from the Shipper profile"
+      "Change the organization-wide default of deliveries to private.",
+      "Use a permission set to remove the Delete permission.",
+      "Remove the Delete permission from the Shipper profile."
     ],
     "correctAnswers": [
       2,
@@ -652,7 +652,7 @@
   {
     "id": 43,
     "module": "Salesforce Fundamentals",
-    "question": "Only users with the Outer Planets profile need to see the Jupiter field on the Solar System object. How should the app builder satisfy this requirement?",
+    "question": "At Ursa Major Solar, only users with the Outer Planets profile need to see the Jupiter field on the Solar System object. How should the app builder satisfy this requirement?",
     "options": [
       "Filtered view",
       "Field-level security",
@@ -667,7 +667,7 @@
   {
     "id": 44,
     "module": "Salesforce Fundamentals",
-    "question": "How should Cloud Kicks grant scorecard access to reps, managers, and executives while preventing reps from seeing executive comment fields?",
+    "question": "Cloud Kicks is evaluating sales representatives using a custom object that contains a scorecard. The company wants to ensure that only the sales reps, their managers, and the managers' executives can view the rep's scorecard, while preventing the reps from viewing executive comment fields on their review. How should these requirements be met?",
     "options": [
       "Use a private sharing model granting record access using hierarchy; manage field access with record types and field-level security.",
       "Use a private sharing model granting record access using custom settings; manage field access with page layouts and field-level security.",
@@ -682,7 +682,7 @@
   {
     "id": 45,
     "module": "Business Logic and Process Automation",
-    "question": "New vendors must accept terms on agreements before the opportunity can be closed. Which feature should be used?",
+    "question": "The CFO of Cloud Kicks needs a way for new vendors to accept terms on agreements for any new major retail store lease before the opportunity can be closed. Which feature should be used to handle this requirement?",
     "options": [
       "Validation Rule",
       "Dynamic Action",
@@ -697,10 +697,10 @@
   {
     "id": 46,
     "module": "Data Modeling and Management",
-    "question": "CK changed processes to allow opportunities to have different specialty values than their Account. How can reps enter values while preserving existing ones?",
+    "question": "Cloud Kicks (CK) has a formula field named Specialty__c on the Opportunity object that derives its value from the Specialty__c field on the related Account object. CK has updated its processes to allow opportunities to have different values for Specialty__c than their Account. How can sales reps enter values for the Specialty__c field on Opportunity, while preserving the values on existing opportunities?",
     "options": [
       "Export the data, convert the field to a text field, and import the data.",
-      "Convert the field to a text field and the values will be in it.",
+      "Convert the field to a text field and the values will now be in it.",
       "Create a new text field and keep using the existing formula field.",
       "Create a new text field and import the formula field values in it."
     ],
@@ -727,7 +727,7 @@
   {
     "id": 48,
     "module": "Salesforce Fundamentals",
-    "question": "Universal Containers (UC) requires that all users specify a contract is sent on each Opportunity prior to marking it as 'Closed Won'. Which field type should be configured?",
+    "question": "Universal Containers (UC) requires that all users specify a contract is sent on each Opportunity prior to marking it as 'Closed Won'. UC wants to be able to report on how many Opportunities have sent Contracts compared to how many have a missing contract when the Opportunities closed. Which field type should an app builder configure to fulfill this requirement?",
     "options": [
       "Checkbox",
       "Picklist",
@@ -757,7 +757,7 @@
   {
     "id": 50,
     "module": "Business Logic and Process Automation",
-    "question": "Cloud Kicks (CK) is creating an approval process for overnight shipments. Where should the app builder route the approval request?",
+    "question": "Cloud Kicks (CK) captures shipping information in a custom object called Shipments__c. The app builder at CK is tasked with creating an approval process to ensure department members can approve all overnight shipments. Where should the app builder route the approval request?",
     "options": [
       "Role",
       "Queue",
@@ -772,7 +772,7 @@
   {
     "id": 51,
     "module": "Business Logic and Process Automation",
-    "question": "Universal Containers wants a user to answer additional questions via a popup window to populate additional record fields when submitting for approval. What should be used?",
+    "question": "When a sales rep submits an account for approval, Universal Containers wants the user to answer additional questions via a popup window to populate additional record fields. What should an app builder use to achieve the desired result?",
     "options": [
       "Custom Lightning component",
       "Custom button and Flow",
@@ -787,7 +787,7 @@
   {
     "id": 52,
     "module": "App Deployment",
-    "question": "The VP of Sales asked the app builder to let sales reps create opportunity records directly from the account, with pre-populated fields. Which feature should be used?",
+    "question": "The VP of Sales at Universal Containers asked the app builder to let sales reps create opportunity records directly from the account, with a number of fields pre-populated. Which feature should the app builder use to allow users to create the opportunity?",
     "options": [
       "Custom link",
       "Quick action",
@@ -802,7 +802,7 @@
   {
     "id": 53,
     "module": "Data Modeling and Management",
-    "question": "A new app builder wants to see how standard objects and custom objects relate. Which functionality should the app builder use?",
+    "question": "A new app builder on the Cloud Kicks team is getting familiar with the data model. They want to see how standard objects and custom objects relate. Which functionality should the app builder use to view these relationships?",
     "options": [
       "Schema Builder",
       "Object Manager",
@@ -817,7 +817,7 @@
   {
     "id": 54,
     "module": "Business Logic and Process Automation",
-    "question": "Ursa Major Solar wants to see the Type field from parent Galaxy on child Star. Which formula should be used to avoid picklist function errors?",
+    "question": "Ursa Major Solar wants to see the Type field from the parent object Galaxy listed on the child record Star. The app builder is receiving an error stating 'Picklist values are only supported in certain functions'. Which formula should an app builder use to achieve the desired result?",
     "options": [
       "ISPICKVAL (Galaxy_r.Type_c)",
       "VALUE (Galaxy_r.Type_c)",
@@ -832,7 +832,7 @@
   {
     "id": 55,
     "module": "Business Logic and Process Automation",
-    "question": "When an opportunity close date is delayed by more than 60 days, review is required. Which two solutions will meet the requirement?",
+     "question": "At Cloud Kicks when an opportunity close date is delayed by more than 60 days, the manager and the VP of Sales want to review the change. Which two solutions will meet the requirement?",
     "options": [
       "Create a flow that submits the record for an approval process.",
       "Create a formula field that calculates if the close date is less than 60 days and then send an email alert.",
@@ -848,13 +848,13 @@
   {
     "id": 56,
     "module": "User Interface",
-    "question": "Which approach should an app builder take to show Component as a related list on Product?",
+    "question": "Universal Containers created a custom object called Component to capture details about products sold. Which approach should an app builder take to show Component as a related list on Product?",
     "options": [
-      "Create a master-detail relationship on Product to Component.",
-      "Create a roll-up on Product.",
-      "Create a junction object to relate Component and Product.",
-      "Create a lookup relationship on Component to Product."
-    ],
+      "Create a master-detail relationship on Product to Component. Add the Component related list to the Product page layout.",
+      "Create a roll-up on Product. Add the Component related list to the Product page layout.",
+      "Create a junction object to relate Component and Product. Add the Component related list to the Product page layout.",
+     "Create a lookup relationship on Component to Product. Add the Component related list to the Product page layout."
+  ],
     "correctAnswers": [
       3
     ],
@@ -863,13 +863,13 @@
   {
     "id": 57,
     "module": "Salesforce Fundamentals",
-    "question": "What should the app builder do to meet a deadline for a customized survey solution with little time to build from scratch?",
+   "question": "Ursa Major Solar wants to automate a welcome email to new clients and include a customized survey about their buying experience. The app builder has limited time to build the solution from scratch but needs to fully customize it. What should the app builder do to meet the deadline and custom requirements?",
     "options": [
-      "Work with a developer to create custom Apex code and Visualforce survey.",
-      "Build the survey declaratively and use a workflow rule to send it.",
-      "Select an unmanaged package from AppExchange that allows programmatic development.",
-      "Choose a managed package from AppExchange that restricts programmatic development."
-    ],
+      "Work with a developer to create custom Apex code and a Visualforce survey to meet criteria.",
+      "Build the survey declaratively and use a workflow rule to send it to the customer as an external message to meet criteria.",
+      "Select an unmanaged package from AppExchange that meets the requirements of the project that allows programmatic development.",
+      "Choose a managed package from AppExchange that closely meets the requirements of the project and restricts programmatic development."
+  ],
     "correctAnswers": [
       2
     ],
@@ -878,12 +878,12 @@
   {
     "id": 58,
     "module": "App Deployment",
-    "question": "After testing, changes had to be made to components in a change set already deployed to testing. How should the builder move new changes?",
+    "question": "Universal Containers deployed an app in a large change set from a Developer Sandbox to a Developer Pro Sandbox used for testing. After testing, changes had to be made to several of the components in the change set. How should an app builder move the new changes to the Developer Pro Sandbox?",
     "options": [
-      "Refresh the test sandbox and re-deploy the change set.",
-      "Clone the change set and re-deploy.",
-      "Rename the change set, add the changes and re-deploy.",
-      "Update the change set and re-deploy."
+     "Create a new change set and include only the updated components.",
+      "Clone the original change set and redeploy it.",
+      "Use the same change set and re-upload it.",
+      "Refresh the Developer Pro Sandbox and redeploy the original change set."
     ],
     "correctAnswers": [
       1
@@ -895,11 +895,11 @@
     "module": "Data Modeling and Management",
     "question": "The app builder is unable to implement a Roll-Up Summary field on Account for Opportunity amounts. Why?",
     "options": [
-      "The default currency is not an active currency.",
+      "The default currency is not an active currency in the organization.",
       "Currency fields are unable to be referenced in Roll-Up Summary fields.",
       "The organization has Advanced Currency Management enabled.",
       "Roll-Up Summary fields are unavailable on the Account object."
-    ],
+  ],
     "correctAnswers": [
       2
     ],
@@ -908,7 +908,7 @@
   {
     "id": 60,
     "module": "User Interface",
-    "question": "A business user wants a quick way to edit status and custom due date from the record's feed in Salesforce Mobile App. What should be used?",
+    "question": "A business user wants a quick way to edit a record's status and enter a custom due date field from the record's feed in Salesforce Mobile App. What should be used to accomplish this?",
     "options": [
       "Custom button",
       "Custom URL formula field",
@@ -923,7 +923,7 @@
   {
     "id": 61,
     "module": "App Deployment",
-    "question": "Universal Containers wants to improve Opportunity creation from an Account where many fields are pre-populated. What should be configured?",
+    "question": "Universal Containers wants to improve the process to create Opportunity records related to an Account. Many fields can be populated based on the Account record. Some fields require input from the user. What should an app builder configure to meet the requirement?",
     "options": [
       "Assignment rule triggered from Opportunity update",
       "Quick Action on the Opportunity object",
@@ -938,7 +938,7 @@
   {
     "id": 62,
     "module": "Salesforce Fundamentals",
-    "question": "In a master-detail relationship, what determines the ownership and sharing access of the detail record?",
+    "question": "Northern Trail Outfitters has two custom objects that are part of a master-detail relationship. What determines the ownership and sharing access of the detail record?",
     "options": [
       "The Owner field on the Master record.",
       "The owner is set independently on the detail object settings.",
@@ -953,7 +953,7 @@
   {
     "id": 63,
     "module": "Salesforce Fundamentals",
-    "question": "Which next steps ensure users can access new object and fields created in Schema Builder?",
+    "question": "An app builder at Cloud Kicks created a custom object and related fields in the schema builder. Which next steps should the app builder take to ensure users can access the new object and fields?",
     "options": [
       "Add the fields to the page layout on the object.",
       "Allow reporting for the object and fields.",
@@ -969,7 +969,7 @@
   {
     "id": 64,
     "module": "Business Logic and Process Automation",
-    "question": "DreamHouse Realty wants to prevent cases from being reverted to earlier status and ensure certain fields are required based on criteria. Which solution?",
+    "question": "DreamHouse Realty (DR) asks for some improvements in case management. They want to enforce process compliance so that cases are unable to be reverted to an earlier case status, and to ensure that certain fields are required when specific case criteria are met. Which solution should an app builder implement to meet these requirements?",
     "options": [
       "Create dependent picklist fields and set them as required.",
       "Configure validation rules with help text.",
@@ -984,7 +984,7 @@
   {
     "id": 65,
     "module": "Business Logic and Process Automation",
-    "question": "An app builder needs to create new automation. Which best practice should be followed?",
+    "question": "An app builder needs to create new automation on an object. Which best practice should the app builder follow when building out automation?",
     "options": [
       "One Flow per object",
       "One Validation rule per object",
