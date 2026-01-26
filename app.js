@@ -210,7 +210,7 @@ function startBlockingStudyMode(questions, title, examId) {
 // --- RENDERS DE PREGUNTAS ---
 
 // Renderizador A: Para Units (Muestra explicación y botón siguiente)
-function renderQuestionWithFeedback(question, titleContext, unit) {
+function renderQuestionWithFeedback(question, titleContext) {
   const appDiv = document.getElementById('app');
   appDiv.innerHTML = '';
   createBackButton(appDiv, showMainMenu);
