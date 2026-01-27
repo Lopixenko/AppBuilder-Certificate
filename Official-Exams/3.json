@@ -55,7 +55,7 @@
       "Rename the change set, add the changes and re-deploy."
     ],
     "correctAnswers": [
-      2
+      0
     ],
     "explanation": "Change sets can be updated and re-deployed. Renaming is unnecessary; simply add the new components and redeploy."
   },

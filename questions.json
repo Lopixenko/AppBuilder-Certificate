@@ -2053,7 +2053,7 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Uploaded change sets cannot be modified. Cloning the change set is the required step to add new components or fixes."
+    "explanation": "Change sets can be updated by adding or removing components before re-deploying. Renaming or cloning is unnecessary unless creating a separate deployment path."
   },
   {
     "id": 135,

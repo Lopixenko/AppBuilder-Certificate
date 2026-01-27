@@ -880,16 +880,17 @@
     "module": "App Deployment",
     "question": "Universal Containers deployed an app in a large change set from a Developer Sandbox to a Developer Pro Sandbox used for testing. After testing, changes had to be made to several of the components in the change set. How should an app builder move the new changes to the Developer Pro Sandbox?",
     "options": [
-     "Create a new change set and include only the updated components.",
-      "Clone the original change set and redeploy it.",
-      "Use the same change set and re-upload it.",
-      "Refresh the Developer Pro Sandbox and redeploy the original change set."
+      "Refresh the test sandbox and re-deploy the change set.",
+      "Clone the change set and re-deploy.",
+      "Rename the change set, add the changes and re-deploy.",
+      "Update the change set and re-deploy."
     ],
     "correctAnswers": [
       1
     ],
-    "explanation": "Cloning is the standard way to modify and resend a Change Set."
-  },
+    "explanation": "Change sets can be updated by adding or removing components before re-deploying. Renaming or cloning is unnecessary unless creating a separate deployment path."
+}
+,
   {
     "id": 59,
     "module": "Data Modeling and Management",
