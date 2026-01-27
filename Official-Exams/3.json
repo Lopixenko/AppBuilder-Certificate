@@ -55,9 +55,9 @@
       "Rename the change set, add the changes and re-deploy."
     ],
     "correctAnswers": [
-      0
+      2
     ],
-    "explanation": "Uploaded change sets cannot be modified. Cloning the change set is the required step to add new components or fixes."
+    "explanation": "Change sets can be updated and re-deployed. Renaming is unnecessary; simply add the new components and redeploy."
   },
   {
     "id": 5,
@@ -392,8 +392,8 @@
       "NOT( ISBLANK(Lead.Owner.Queue.Id))",
       "AND(ISBLANK(Lead.Owner), ISBLANK(Lead.Owner.User.Id))"
     ],
-    "correctAnswers": [2],
-    "explanation": "Validation rules can prevent records from being saved if the owner is left blank or remains assigned to a queue."
+    "correctAnswers": [3],
+    "explanation": "To ensure a Lead has a user owner and not just a queue, the validation rule must check that both Lead.Owner and Lead.Owner.User.Id are blank."
   },
   {
     "id": 30,
@@ -653,8 +653,8 @@
       "A new custom report type will need to be created for Star__c with lookup fields from Galaxy__c.",
       "A Galaxy__c with Star__c report type will be automatically created."
     ],
-    "correctAnswers": [1],
-    "explanation": "Custom report types are often necessary to ensure specific fields or primary object relationships are correctly reflected."
+    "correctAnswers": [3],
+    "explanation": "Master-detail relationships automatically generate report types combining parent and child objects, enabling reporting on Galaxy__c with Star__c."
   },
   {
     "id": 50,
