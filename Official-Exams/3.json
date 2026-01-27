@@ -653,7 +653,9 @@
       "A new custom report type will need to be created for Star__c with lookup fields from Galaxy__c.",
       "A Galaxy__c with Star__c report type will be automatically created."
     ],
-    "correctAnswers": [3],
+    "correctAnswers": [
+      3
+    ],
     "explanation": "Master-detail relationships automatically generate report types combining parent and child objects, enabling reporting on Galaxy__c with Star__c."
   },
   {

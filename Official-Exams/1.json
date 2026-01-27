@@ -765,9 +765,9 @@
       "Public group"
     ],
     "correctAnswers": [
-      3
+      1
     ],
-    "explanation": "Requests can be routed to a Public Group to ensure department members can approve."
+    "explanation": "Requests can be routed to a Queue to ensure department members can approve."
   },
   {
     "id": 51,

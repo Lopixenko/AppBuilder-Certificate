@@ -765,9 +765,9 @@
       "Public group"
     ],
     "correctAnswers": [
-      3
+      1
     ],
-    "explanation": "Requests can be routed to a Public Group to ensure department members can approve."
+    "explanation": "Requests can be routed to a Queue to ensure department members can approve."
   },
   {
     "id": 51,
@@ -2745,9 +2745,9 @@
       "A Galaxy__c with Star__c report type will be automatically created."
     ],
     "correctAnswers": [
-      1
+      3
     ],
-    "explanation": "Custom report types are often necessary to ensure specific fields or primary object relationships are correctly reflected."
+    "explanation": "Master-detail relationships automatically generate report types combining parent and child objects, enabling reporting on Galaxy__c with Star__c."
   },
   {
     "id": 180,
