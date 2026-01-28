@@ -778,7 +778,7 @@
       "Set the component visibility to display based on an advanced filter type, using the contact field(s) to define the dynamic criteria."
   ],
     "correctAnswers": [
-      2
+      3
     ],
     "explanation": "Related record components can show data from lookup relationships dynamically."
   },
@@ -793,7 +793,7 @@
       "External ID"
     ],
     "correctAnswers": [
-      0,
+      2,
       3
     ],
     "explanation": "Upserting requires an External ID; marking it Unique ensures record integrity."
