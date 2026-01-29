@@ -388,11 +388,11 @@
     "question": "Universal Containers manages leads in a Lead qualification queue where sales reps can accept ownership of the Lead. Campaign members are required to have a sales owner. Which validation rule should an app builder configure?",
     "options": [
       "AND( ISBLANK(Lead.Owner.Id) )",
-      "NOT(ISBLANK(Lead.Owner.Queue.Id))",
-      "NOT( ISBLANK(Lead.Owner.Queue.Id))",
-      "AND(ISBLANK(Lead.Owner), ISBLANK(Lead.Owner.User.Id))"
+      "NOT(ISNEW() && ISBLANK(Lead.Owner:Queue.Id))",
+      "NOT( ISBLANK(Lead.Owner:Queue.Id))",
+      "AND(ISNEW(), ISBLANK(Lead.Owner:User.Id))"
     ],
-    "correctAnswers": [3],
+    "correctAnswers": [2],
     "explanation": "To ensure a Lead has a user owner and not just a queue, the validation rule must check that both Lead.Owner and Lead.Owner.User.Id are blank."
   },
   {
