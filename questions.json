@@ -490,7 +490,7 @@
       "Add the Path component to the Lightning record page."
     ],
     "correctAnswers": [
-      0
+      3
     ],
     "explanation": "The Path component highlights key fields needed at each stage of a process."
   },
@@ -1135,7 +1135,7 @@
     ],
     "correctAnswers": [
       1,
-      3
+      2
     ],
     "explanation": "Sharing for junction objects is controlled by the master records; 'Read/Write' on the relationship allows editing."
   },
@@ -1530,7 +1530,7 @@
       "Create both customer and dealer as accounts, create account teams on each account and associate the dealer records with the parent account."
     ],
     "correctAnswers": [
-      3
+      2
     ],
     "explanation": "Using individual accounts with the 'Parent Account' field allows for hierarchy and separate billing."
   },
@@ -1730,7 +1730,7 @@
       "IF(ISPICKVAL(Sales_Organization__c='Canada'), ISBLANK(TEXT(Pricing_Tier__c)), TRUE)"
     ],
     "correctAnswers": [
-      2
+      1
     ],
     "explanation": "Validation rules for picklists require ISPICKVAL and checking if the value is blank."
   },
